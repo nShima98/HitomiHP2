@@ -355,7 +355,6 @@ PC用スタイル
     }
     #tg-backimg{
         position: relative;
-        display: flex;
         align-items: center;
     }
     #tg-img{
@@ -363,7 +362,92 @@ PC用スタイル
         height: auto;
         position: relative;
     }
+    #tg-box{
+        position: absolute;
+        top:50%;
+        transform: translate(0%, -50%);
+        padding: 20px 0;
+        background-color: rgba(255, 255, 255, 0.75);
+        width: 100%;
+        height: 75%;
+        display: flex;
+        flex-flow: column;
+        justify-content: space-between;
+    }
+    #tg-box > h1{
+        text-align: center;
+        margin-top: 0;
+        font-size: 30px;
+        font-weight: lighter;
+        margin-bottom: auto;
+    }
 
+
+    .Container {
+        position: relative;
+        width: 100%;
+        height: 75%;
+        overflow: hidden;
+    }
+  
+    .Box-Container {
+        display: flex;
+        width: fit-content;
+        transition: transform 0.3s ease;
+        transform: translateX(0);
+        height: 100%;
+        margin: auto 0;
+    }
+  
+    .Box {
+        flex-shrink: 0;
+        width: fit-content;
+        margin-right: 25px;
+    }
+    .Box > img{
+        height: 100%;
+        width: auto;
+    }
+  
+    .Arrow {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 30px;
+        height: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+    }
+  
+    .Arrow.left {
+        left: 20px;
+    }
+  
+    .Arrow.right {
+        right: 20px;
+    }
+  
+    .Hide {
+        display: none;
+    }
+
+    #tg-more{
+        text-align: right;
+        margin-top: auto;
+        margin-right: 20px;
+    }
+    #tg-more>a{
+        color: #000000;
+        font-size: 18px;
+        font-weight: lighter;
+        text-decoration: none;
+    }
+    #tg-more>a:hover{
+        color: #000000;
+        text-decoration: underline;
+    }
 
 
     /*-----Newsページ-----*/
