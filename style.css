@@ -756,7 +756,6 @@ PC用スタイル
         width: fit-content;
         max-width: 1024px;
         margin: 20px auto 30px auto;
-        
     }
     .ga-contents-box > h1{
         color: #000000;
@@ -764,6 +763,20 @@ PC用スタイル
         font-weight: lighter;
         margin:20px 0 10px 0;
     }
+    .ga-photo-box{
+        text-align: center;
+        width: fit-content;
+    }
+    .ga-photo-box img{
+        width: 300px;
+        height: 300px;
+        margin: 5px;
+        object-fit: cover;
+    }
+    .ga-photo-box a{
+        color: #ffffff;
+    }
+
     #ga-movie-box > h2{
         color: #000000;
         font-size: 16px;
