@@ -558,15 +558,7 @@ PC用スタイル
         margin: 0;
         font-weight: lighter;
     }
-    #nw-hbg{
-        position: absolute;
-        top: 75px;
-        left: 75px;
-    }
-    #nw-hbg>img{
-        width: 50px;
-        height: auto;
-    }
+
     /*メイン*/
     #news-art{
         margin: 0 50px 50px 50px;
@@ -684,15 +676,6 @@ PC用スタイル
         margin: 0;
         font-weight: lighter;
     }
-    #wo-hbg{
-        position: absolute;
-        top: 75px;
-        left: 75px;
-    }
-    #wo-hbg>img{
-        width: 50px;
-        height: auto;
-    }
     /*メイン*/
     #works-art{
         margin: 0 50px 50px 50px;
@@ -730,15 +713,6 @@ PC用スタイル
         color: #ffffff;
         margin: 0;
         font-weight: lighter;
-    }
-    #pr-hbg{
-        position: absolute;
-        top: 75px;
-        left: 75px;
-    }
-    #pr-hbg>img{
-        width: 50px;
-        height: auto;
     }
     /*メイン*/
     #profile-art{
@@ -849,15 +823,6 @@ PC用スタイル
         margin: 0;
         font-weight: lighter;
     }
-    #ga-hbg{
-        position: absolute;
-        top: 75px;
-        left: 75px;
-    }
-    #ga-hbg>img{
-        width: 50px;
-        height: auto;
-    }
 
     /*メイン*/
     #gallery-art{
@@ -902,46 +867,38 @@ PC用スタイル
 
     /*-----Funclubページ-----*/
     /*ヘッダー*/
-    #fu-box{
+    #fa-box{
         position: relative;
         margin: 0,0,50px,0;
         text-align: center;
         outline: #000000 solid 3px;
         outline-offset: -50px;
     }
-    #fu-header-img{
+    #fa-header-img{
         width: 100%;
         height: auto;
     }
-    #fu-title{
+    #fa-title{
         position: absolute;
         top:60%;
         left: 100px;
         transform: translate(0%, -50%);
     }
-    #fu-title>h1{
+    #fa-title>h1{
         font-size: 40px;
         color: #000000;
         margin: 0;
         font-weight:lighter;
     }
-    #fu-title>h2{
+    #fa-title>h2{
         font-size: 20px;
         color: #000000;
         margin: 0;
         font-weight: lighter;
     }
-    #fu-hbg{
-        position: absolute;
-        top: 75px;
-        left: 75px;
-    }
-    #fu-hbg>img{
-        width: 50px;
-        height: auto;
-    }
+
     /*メイン*/
-    #funclub-art{
+    #fanclub-art{
         margin: 0 50px 50px 50px;
     }
 }
