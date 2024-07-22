@@ -1,4 +1,30 @@
-//Topページgalleryセクション
+'use strict'
+//-----ハンバーガーメニュー(PC)-----
+{
+    const openBtnPC = document.querySelector('.hbg-btn-open')
+    const closeBtnPC = document.querySelector('.hbg-btn-close')
+    const npb = document.querySelector('.nav-pc')
+    const aaa = document.querySelector('main')
+    const bbb = document.querySelector('#th-box')
+    //NemuOpen
+    openBtnPC.addEventListener('click', () => {
+        openBtnPC.classList.toggle('active');
+        npb.classList.toggle('active');
+        aaa.style.display = 'none';
+        bbb.style.display = 'none';
+    });
+    //NemuClose
+    closeBtnPC.addEventListener('click', () => {
+        openBtnPC.classList.toggle('active');
+        npb.classList.toggle('active');
+        aaa.style.display = 'block';
+        bbb.style.display = 'block';
+    });
+}
+
+
+
+//-----Topページgalleryセクション-----
 const container = document.querySelector('.Container');
 const boxContainer = document.querySelector('.Box-Container');
 const leftArrow = document.querySelector('.Arrow.left');

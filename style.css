@@ -28,6 +28,109 @@ PC用スタイル
     #footer-link > a{
         margin: 0 20px;
     }
+    /*SNS*/
+    .sns-logo{
+        width: 20px;
+        height: auto;
+        margin-left: 10px;
+    }
+    .sns-logo:hover{
+        opacity:0.6;
+    }
+    /*ナビゲーションのリンクの装飾設定*(ヘッダー)*/
+    .hbg-btn-open{
+        position: absolute;
+        top: 75px;
+        left: 75px;
+    }
+    .hbg-btn-open>img{
+        width: 50px;
+        height: auto;
+    }
+    .nav-pc{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        min-height: 100vh;
+        background-color: #FFAD75;
+        text-align: center;
+        outline: #ffffff solid 3px;
+        outline-offset: -50px;
+        opacity: 0;
+        pointer-events: none;
+    }
+    .nav-pc.active{
+        opacity: 1;
+        pointer-events: auto;
+    }
+    .hbg-btn-close{
+        position: absolute;
+        top: 75px;
+        left: 75px;        
+    }
+    .hbg-btn-close > img{
+        width: 50px;
+        height: auto;
+    }
+    .nav-pc-box{
+        padding: 0;
+        margin: 0 auto;
+        width: fit-content;
+        min-height: 100vh;
+        display: flex;
+        flex-flow: column;
+        justify-content: space-between;
+    }
+    .nav-pc-title{
+        margin: 75px auto 0;
+        width: fit-content;
+    }    
+    .nav-pc-title>h1{
+        font-size: 40px;
+        color: #ffffff;
+        margin: 0;
+        font-weight: lighter;
+    }
+    .nav-pc-title>h2{
+        font-size: 20px;
+        color: #ffffff;
+        margin: 0;
+        font-weight: lighter;
+    }
+    .nav-pc-link{
+        margin: 20px auto;
+        display: flex;
+        flex-direction: column;
+        width: fit-content;
+    }
+    .nav-pc-link-btn{
+        font-size: 32px;
+        font-weight: lighter;
+        color: #ffffff;
+        text-decoration: none;
+        margin: 8px 0;
+    }
+    .nav-pc-link-btn:hover{
+        color: rgba(255, 255, 255, 0.6);
+    }
+    .nav-pc-sns{
+        display: flex;
+        margin: 0 auto 75px;
+    }
+    .nav-pc-sns-link{
+        margin: 0 20px 0;
+    }
+    .nav-pc-sns-share{
+        margin: 0 20px 0;
+    }
+    .nav-pc-sns-link>span,.nav-pc-sns-share>span{
+        text-decoration: none;
+        color: #ffffff;
+        font-size: 25px;
+        font-weight: lighter;
+    }
+
 
     /*ナビゲーションのリンクの装飾設定*(フッター)*/
     #footer-link > a{
@@ -57,14 +160,6 @@ PC用スタイル
         color: #ffffff;
         font-weight: lighter;
         font-size: 20px;
-    }
-    .sns-logo{
-        width: 20px;
-        height: auto;
-        margin-left: 10px;
-    }
-    .sns-logo:hover{
-        opacity:0.6;
     }
     #footer-name{
         font-size: 14px;
@@ -137,15 +232,6 @@ PC用スタイル
         color: #FFAD75;
         margin: 0;
         font-weight: lighter;
-    }
-    #top-hbg{
-        position: absolute;
-        top: 75px;
-        left: 75px;
-    }
-    #top-hbg>img{
-        width: 50px;
-        height: auto;
     }
 
     /*Topリンク*/
@@ -483,61 +569,88 @@ PC用スタイル
     }
     /*メイン*/
     #news-art{
-        margin: 0 50px;
+        margin: 0 50px 50px 50px;
     }
     #latest-news>h1, #past-news>h1{
         text-align: center;
         font-size: 24px;
         font-weight: lighter;
         margin:10px 0;
-   }
-   #latest-news-box{
+    }
+    #latest-news-box{
         width: 100%;
         display: flex;
         position: relative;
-   }
-   #latest-news-img-box{
+    }
+    #latest-news-img-box{
         width: 25%;
         height: 100%;
         margin: auto 0;
-   }
-   #latest-news-text-box{
+    }
+    #latest-news-text-box{
         background-color:#FFAD75;
         padding-left: 20px;
         padding-right: 20px;
         width: 75%;
-   }
-   #latest-news-img{
+    }
+    #latest-news-img{
         width: 100%;
         height: auto;
         margin: auto 0;
-   }
-   #latest-news-days >h3{
+    }
+    #latest-news-days >h3{
         margin: 20px 0 15px 0;
         font-size: 16px;
         font-weight: lighter;
-   }
-   #latest-news-ct>a{
+    }
+    #latest-news-ct>a{
         font-size: 20px;
         font-weight: lighter;
         text-decoration: none;
         color: #000000;
-   }
-   #latest-news-viewmore{
+    }
+    #latest-news-viewmore{
         margin: 15px 0 15px 0;
         text-align: right; 
-   }
-   #latest-news-viewmore>a{
+    }
+    #latest-news-viewmore>a{
         font-size: 14px;
         font-weight: lighter;
         text-decoration: none;
         color: #000000;
-   }
+    }
 
-   #past-news{
+    #past-news{
         margin: 30px 0 0 0;
-   }
-
+        text-align: center;
+    }
+    #past-news-box{
+        justify-content: left;
+        width: fit-content;
+        margin: 0 auto;
+    }
+    #past-news-box>ul{
+        list-style-type: none;
+    }
+    .past-news-list{
+        margin: 0 auto 10px;
+        padding: 0;
+        display: flex;
+        flex-flow: row wrap;
+        font-size: 14px;
+        font-weight: lighter;
+        text-align: left;
+    }
+    .past-news-list-day{
+        margin-right: 20px;
+    }
+    .past-news-list-link > a{
+        color: #000000;
+        text-decoration: none;
+    }
+    .past-news-list-link > a:hover{
+        text-decoration: underline;
+    }
 
 
     /*-----Worksページ-----*/
