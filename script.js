@@ -3,8 +3,8 @@
 {
     const openBtnPC = document.querySelector('.hbg-btn-open')
     const closeBtnPC = document.querySelector('.hbg-btn-close')
-    const npb = document.querySelector('.nav-pc')
-    const aaa = document.querySelector('main')
+    const navPcActive = document.querySelector('.nav-pc')
+    const mainActive = document.querySelector('main')
     const ThBox = document.querySelector('#th-box')
     const NwBox = document.querySelector('#th-box')
     const WoBox = document.querySelector('#wo-box')
@@ -14,8 +14,8 @@
     //NemuOpen
     openBtnPC.addEventListener('click', () => {
         openBtnPC.classList.toggle('active');
-        npb.classList.toggle('active');
-        aaa.style.display = 'none';
+        navPcActive.classList.toggle('active');
+        mainActive.style.display = 'none';
         ThBox.style.display = 'none';
         NwBox.style.display = 'none';
         WoBox.style.display = 'none';
@@ -26,8 +26,8 @@
     //NemuClose
     closeBtnPC.addEventListener('click', () => {
         openBtnPC.classList.toggle('active');
-        npb.classList.toggle('active');
-        aaa.style.display = 'block';
+        navPcActive.classList.toggle('active');
+        mainActive.style.display = 'block';
         ThBox.style.display = 'block';
         NwBox.style.display = 'block';
         WoBox.style.display = 'block';
