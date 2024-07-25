@@ -43,6 +43,9 @@ PC用スタイル
         top: 75px;
         left: 75px;
     }
+    .hbg-btn-open:hover{
+        opacity: 0.8;
+    }
     .hbg-btn-open>img{
         width: 50px;
         height: auto;
@@ -72,6 +75,9 @@ PC用スタイル
     .hbg-btn-close > img{
         width: 50px;
         height: auto;
+    }
+    .hbg-btn-close:hover{
+        opacity: 0.6;
     }
     .nav-pc-box{
         padding: 0;
@@ -214,10 +220,11 @@ PC用スタイル
     #top-header-img{
         width: 100%;
         height: auto;
+        pointer-events:none
     }
     #top-title{
         position: absolute;
-        top:60%;
+        top:65%;
         left: 100px;
         transform: translate(0%, -50%);
     }
@@ -275,6 +282,7 @@ PC用スタイル
     #tn-img{
         width: 100%;
         height: auto;
+        pointer-events:none
     }
     #tn-box{
         position: absolute;
@@ -334,6 +342,7 @@ PC用スタイル
         width: 100%;
         height: auto;
         position: relative;
+        pointer-events:none
     }
     #tw-box{
         position: absolute;
@@ -350,7 +359,21 @@ PC用スタイル
         font-weight: lighter;
         margin-bottom: 20px;
     }
-
+    .tw-contents-link{
+        margin-top: 5px;
+        color: #000000;
+        font-size: 14px;
+        font-weight: lighter;
+        text-decoration: none;
+        list-style: none;
+    }
+    .tw-contents-link>a{
+        color: #000000;
+        text-decoration: none;
+    }
+    .tw-contents-link:hover{
+        text-decoration: underline;
+    }
     #tw-more{
         text-align: right;
         margin-top: auto;
@@ -383,6 +406,7 @@ PC用スタイル
         width: 100%;
         height: auto;
         position: relative;
+        pointer-events:none
     }
     #tp-box{
         position: absolute;
@@ -447,6 +471,7 @@ PC用スタイル
         width: 100%;
         height: auto;
         position: relative;
+        pointer-events:none
     }
     #tg-box{
         position: absolute;
@@ -509,6 +534,9 @@ PC用スタイル
     }
     .Hide {
         display: none;
+    }
+    .Box{
+        pointer-events:none
     }
     #tg-more{
         text-align: right;
