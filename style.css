@@ -228,16 +228,13 @@ PC用スタイル
         left: 100px;
         transform: translate(0%, -50%);
     }
-    #top-title>a{
-        text-decoration: none;
-    }
-    #top-title>a>h1{
+    #top-title>h1{
         font-size: 40px;
         color: #FFAD75;
         margin: 0;
         font-weight: lighter;
     }
-    #top-title>a>h2{
+    #top-title>h2{
         font-size: 20px;
         color: #FFAD75;
         margin: 0;
@@ -437,7 +434,7 @@ PC用スタイル
     }
     #tp-contents1 > h3{
         margin-top: 0;
-        font-size: 18px;
+        font-size: 16px;
         font-weight: lighter;
         margin-bottom: 15px;
     }
@@ -578,16 +575,19 @@ PC用スタイル
         right: 100px;
         transform: translate(0%, -50%);
     }
-    #nw-title>a{
+    #nw-title-btn{
         text-decoration: none;
     }
-    #nw-title>a>h1{
+    #nw-title-btn:hover{
+        opacity: 0.8;
+    }
+    #nw-title-btn >h1{
         font-size: 40px;
         color: #000000;
         margin: 0;
         font-weight:lighter;
     }
-    #nw-title>a>h2{
+    #nw-title-btn>h2{
         font-size: 20px;
         color: #000000;
         margin: 0;
@@ -700,16 +700,19 @@ PC用スタイル
         left: 100px;
         transform: translate(0%, -50%);
     }
-    #wo-title>a{
+    #wo-title-btn{
         text-decoration: none;
     }
-    #wo-title>a>h1{
+    #wo-title-btn:hover{
+        opacity: 0.8;
+    }
+    #wo-title-btn>h1{
         font-size: 40px;
         color: #000000;
         margin: 0;
         font-weight:lighter;
     }
-    #wo-title>a>h2{
+    #wo-title-btn>h2{
         font-size: 20px;
         color: #000000;
         margin: 0;
@@ -742,16 +745,19 @@ PC用スタイル
         right: 100px;
         transform: translate(0%, -50%);
     }
-    #pr-title>a{
+    #pr-title-btn{
         text-decoration: none;
     }
-    #pr-title>a>h1{
+    #pr-title-btn:hover{
+        opacity: 0.8;
+    }
+    #pr-title-btn>h1{
         font-size: 40px;
         color: #ffffff;
         margin: 0;
         font-weight:lighter;
     }
-    #pr-title>a>h2{
+    #pr-title-btn>h2{
         font-size: 20px;
         color: #ffffff;
         margin: 0;
@@ -855,16 +861,19 @@ PC用スタイル
         left: 100px;
         transform: translate(0%, -50%);
     }
-    #ga-title>a{
+    #ga-title-btn{
         text-decoration: none;
     }
-    #ga-title>a>h1{
+    #ga-title-btn:hover{
+        opacity: 0.8;
+    }
+    #ga-title-btn>h1{
         font-size: 40px;
         color: #FFAD75;
         margin: 0;
         font-weight:lighter;
     }
-    #ga-title>a>h2{
+    #ga-title-btn>h2{
         font-size: 20px;
         color: #FFAD75;
         margin: 0;
