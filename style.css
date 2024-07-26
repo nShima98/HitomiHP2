@@ -228,13 +228,16 @@ PC用スタイル
         left: 100px;
         transform: translate(0%, -50%);
     }
-    #top-title>h1{
+    #top-title>a{
+        text-decoration: none;
+    }
+    #top-title>a>h1{
         font-size: 40px;
         color: #FFAD75;
         margin: 0;
         font-weight: lighter;
     }
-    #top-title>h2{
+    #top-title>a>h2{
         font-size: 20px;
         color: #FFAD75;
         margin: 0;
@@ -567,6 +570,7 @@ PC用スタイル
     #nw-header-img{
         width: 100%;
         height: auto;
+        pointer-events:none
     }
     #nw-title{
         position: absolute;
@@ -574,13 +578,16 @@ PC用スタイル
         right: 100px;
         transform: translate(0%, -50%);
     }
-    #nw-title>h1{
+    #nw-title>a{
+        text-decoration: none;
+    }
+    #nw-title>a>h1{
         font-size: 40px;
         color: #000000;
         margin: 0;
         font-weight:lighter;
     }
-    #nw-title>h2{
+    #nw-title>a>h2{
         font-size: 20px;
         color: #000000;
         margin: 0;
@@ -685,6 +692,7 @@ PC用スタイル
     #wo-header-img{
         width: 100%;
         height: auto;
+        pointer-events:none
     }
     #wo-title{
         position: absolute;
@@ -692,13 +700,16 @@ PC用スタイル
         left: 100px;
         transform: translate(0%, -50%);
     }
-    #wo-title>h1{
+    #wo-title>a{
+        text-decoration: none;
+    }
+    #wo-title>a>h1{
         font-size: 40px;
         color: #000000;
         margin: 0;
         font-weight:lighter;
     }
-    #wo-title>h2{
+    #wo-title>a>h2{
         font-size: 20px;
         color: #000000;
         margin: 0;
@@ -723,6 +734,7 @@ PC用スタイル
     #pr-header-img{
         width: 100%;
         height: auto;
+        pointer-events:none
     }
     #pr-title{
         position: absolute;
@@ -730,13 +742,16 @@ PC用スタイル
         right: 100px;
         transform: translate(0%, -50%);
     }
-    #pr-title>h1{
+    #pr-title>a{
+        text-decoration: none;
+    }
+    #pr-title>a>h1{
         font-size: 40px;
         color: #ffffff;
         margin: 0;
         font-weight:lighter;
     }
-    #pr-title>h2{
+    #pr-title>a>h2{
         font-size: 20px;
         color: #ffffff;
         margin: 0;
@@ -832,6 +847,7 @@ PC用スタイル
     #ga-header-img{
         width: 100%;
         height: auto;
+        pointer-events:none
     }
     #ga-title{
         position: absolute;
@@ -839,13 +855,16 @@ PC用スタイル
         left: 100px;
         transform: translate(0%, -50%);
     }
-    #ga-title>h1{
+    #ga-title>a{
+        text-decoration: none;
+    }
+    #ga-title>a>h1{
         font-size: 40px;
         color: #FFAD75;
         margin: 0;
         font-weight:lighter;
     }
-    #ga-title>h2{
+    #ga-title>a>h2{
         font-size: 20px;
         color: #FFAD75;
         margin: 0;
@@ -905,6 +924,7 @@ PC用スタイル
     #fa-header-img{
         width: 100%;
         height: auto;
+        pointer-events:none
     }
     #fa-title{
         position: absolute;
@@ -912,13 +932,16 @@ PC用スタイル
         left: 100px;
         transform: translate(0%, -50%);
     }
-    #fa-title>h1{
+    #fa-title>a{
+        text-decoration: none;
+    }
+    #fa-title>a>h1{
         font-size: 40px;
         color: #000000;
         margin: 0;
         font-weight:lighter;
     }
-    #fa-title>h2{
+    #fa-title>a>h2{
         font-size: 20px;
         color: #000000;
         margin: 0;
