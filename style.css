@@ -1047,7 +1047,7 @@ PC用スタイル
         font-weight: lighter;
     }
     .nav-pc-link{
-        margin: 20px auto;
+        margin: 0 auto;
         display: flex;
         flex-direction: column;
         width: fit-content;
@@ -1061,13 +1061,14 @@ PC用スタイル
     }
     .nav-pc-sns{
         display: flex;
-        margin: 0 auto 50px;
+        flex-direction: column;
+        margin: 0 auto 100px;
     }
     .nav-pc-sns-link{
-        margin: 0 20px 0;
+        margin:0 ;
     }
     .nav-pc-sns-share{
-        margin: 0 0px 0;
+        margin: 20px 0 0;
     }
     .nav-pc-sns-link>span,.nav-pc-sns-share>span{
         text-decoration: none;
@@ -1090,7 +1091,8 @@ PC用スタイル
         flex-flow: column;
     }
     #footer-link > a{
-        margin: 10px 0;
+        width: fit-content;
+        margin: 5px auto;
         text-decoration: none;
         color: #ffffff;
     }
@@ -1098,11 +1100,11 @@ PC用スタイル
         margin: 20px 0px;
     }
     #footer-sns > a{
-        margin:0  20px;
+        margin:0 20px;
     }
     
     #sns-link,#sns-share{
-        margin: 20px auto;
+        margin: 5px auto;
     }
     #sns-link > span{
         color: #ffffff;
@@ -1242,7 +1244,7 @@ PC用スタイル
         text-decoration: none;
     }
     #tn-contents>a:hover{
-        text-decoration: underline;
+        color: #FFAD75;
     }
     #tn-boximg{
         margin-top: 10px;
@@ -1261,8 +1263,7 @@ PC用スタイル
         text-decoration: none;
     }
     #tn-more>a:hover{
-        color: #000000;
-        text-decoration: underline;
+        color: #FFAD75;
     }
     /*TopWorksセクション*/
     #top-works{
@@ -1297,7 +1298,7 @@ PC用スタイル
         text-decoration: none;
     }
     .tw-contents-link:hover{
-        text-decoration: underline;
+        color: #FFAD75;
     }
     #tw-more{
         text-align: right;
@@ -1311,8 +1312,7 @@ PC用スタイル
         text-decoration: none;
     }
     #tw-more>a:hover{
-        color: #000000;
-        text-decoration: underline;
+        color: #FFAD75;
     }
     /*TopProfileセクション*/
     #top-profile{
@@ -1481,6 +1481,130 @@ PC用スタイル
 
 
 
+    /*-----Newsページ-----*/
+    /*ヘッダー*/
+    #nw-box{
+        position: relative;
+        margin: 0,0,50px,0;
+        text-align: center;
+    }
+    #nw-header-img{
+        width: 100%;
+        height: auto;
+        pointer-events:none
+    }
+    #nw-title{
+        position: absolute;
+        top:60%;
+        right: 10%;
+        transform: translate(0%, -50%);
+    }
+    #nw-title-btn{
+        text-decoration: none;
+    }
+    #nw-title-btn:hover{
+        opacity: 0.8;
+    }
+    #nw-title-btn >h1{
+        font-size: 20px;
+        color: #000000;
+        margin: 0;
+        font-weight:lighter;
+    }
+    #nw-title-btn>h2{
+        font-size: 14px;
+        color: #000000;
+        margin: 0;
+        font-weight: lighter;
+    }
+
+    /*メイン*/
+    #news-art{
+        margin: 0 30px 30px ;
+    }
+    #latest-news>h1, #past-news>h1{
+        text-align: center;
+        font-size: 24px;
+        font-weight: lighter;
+        margin:10px 0;
+    }
+    #latest-news-box{
+        width: 100%;
+        display: flex;
+        position: relative;
+    }
+    #latest-news-img-box{
+        width: 25%;
+        height: 100%;
+        margin: auto 0;
+    }
+    #latest-news-text-box{
+        background-color:#FFAD75;
+        padding-left: 20px;
+        padding-right: 20px;
+        width: 75%;
+    }
+    #latest-news-img{
+        width: 100%;
+        height: auto;
+        margin: auto 0;
+    }
+    #latest-news-days >h3{
+        margin: 20px 0 15px 0;
+        font-size: 16px;
+        font-weight: lighter;
+    }
+    #latest-news-ct>a{
+        font-size: 20px;
+        font-weight: lighter;
+        text-decoration: none;
+        color: #000000;
+    }
+    #latest-news-viewmore{
+        margin: 15px 0 15px 0;
+        text-align: right; 
+    }
+    #latest-news-viewmore>a{
+        font-size: 14px;
+        font-weight: lighter;
+        text-decoration: none;
+        color: #000000;
+    }
+
+    #past-news{
+        margin: 30px 0 0 0;
+        text-align: center;
+    }
+    #past-news-box{
+        justify-content: left;
+        width: fit-content;
+        margin: 0 auto;
+    }
+    #past-news-box>ul{
+        list-style-type: none;
+    }
+    .past-news-list{
+        margin: 0 auto 10px;
+        padding: 0;
+        display: flex;
+        flex-flow: row wrap;
+        font-size: 14px;
+        font-weight: lighter;
+        text-align: left;
+    }
+    .past-news-list-day{
+        margin-right: 20px;
+    }
+    .past-news-list-link > a{
+        color: #000000;
+        text-decoration: none;
+    }
+    .past-news-list-link > a:hover{
+        text-decoration: underline;
+    }
+
+
+
     /*-----Profileページ-----*/
     /*ヘッダー*/
     #pr-box{
@@ -1495,7 +1619,7 @@ PC用スタイル
     }
     #pr-title{
         position: absolute;
-        top:65%;
+        top:60%;
         right: 10%;
         transform: translate(0%, -50%);
     }
@@ -1519,7 +1643,7 @@ PC用スタイル
     }
     /*メイン*/
     #profile-art{
-        margin: 0 20px 30px 20px;
+        margin: 0 30px 30px ;
     }
     #profile-box{
         margin: 20px auto;
@@ -1566,7 +1690,7 @@ PC用スタイル
         display: flex;
         justify-content: center;
         align-items: center;
-        margin: 0 auto;
+        margin: 0 auto 20px auto;
         order: 1;
     }
     #profile-fp{
