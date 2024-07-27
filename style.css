@@ -564,6 +564,9 @@ PC用スタイル
         color: #000000;
         text-decoration: underline;
     }
+    .Container-sp{
+        display: none;
+    }
 
 
     /*-----Newsページ-----*/
@@ -994,7 +997,7 @@ PC用スタイル
         left: 15px;
     }
     .hbg-btn-open>img{
-        width: 25px;
+        width: 30px;
         height: auto;
     }
     .nav-pc{
@@ -1018,7 +1021,7 @@ PC用スタイル
         left: 15px;        
     }
     .hbg-btn-close > img{
-        width: 25px;
+        width: 30px;
         height: auto;
     }
     .nav-pc-box{
@@ -1127,7 +1130,7 @@ PC用スタイル
         margin: 0;
     }
     .site-map >p{
-        margin-top: 0px;
+        margin-top: 0;
         margin-bottom: 0;
     }
     .site-map >p,.site-map >p> a{
@@ -1139,7 +1142,7 @@ PC用スタイル
     /*各ページのタイトル*/
     .page_title{
         width: fit-content;
-        margin: 10px auto;
+        margin: 0 auto 10px;
     }
     .page_title > h1{
         color: #000000;
@@ -1169,7 +1172,7 @@ PC用スタイル
     }
     #top-title{
         position: absolute;
-        top:65%;
+        top:60%;
         left: 10%;
         transform: translate(0%, -50%);
     }
@@ -1188,7 +1191,7 @@ PC用スタイル
     /*Topリンク*/
     #top-link{
         position: relative;
-        margin: 20px 10px;
+        margin: 10px 30px ;
         text-align: center;
     }
     #tl-box{
@@ -1214,7 +1217,7 @@ PC用スタイル
     }
     /*TopNewsセクション*/
     #top-news{
-        margin: 50px 20px ;
+        margin: 10px 30px 30px ;
     }
     #tn-backimg{
         position: relative;
@@ -1267,7 +1270,7 @@ PC用スタイル
     }
     /*TopWorksセクション*/
     #top-works{
-        margin: 50px 20px;
+        margin: 30px ;
     }
     #tw-img{
         display: none;
@@ -1297,7 +1300,7 @@ PC用スタイル
         color: #000000;
         text-decoration: none;
     }
-    .tw-contents-link:hover{
+    .tw-contents-link>a:hover{
         color: #FFAD75;
     }
     #tw-more{
@@ -1316,7 +1319,7 @@ PC用スタイル
     }
     /*TopProfileセクション*/
     #top-profile{
-        margin: 50px 20px;
+        margin: 30px ;
     }
     #tp-backimg{
         position: relative;
@@ -1382,89 +1385,47 @@ PC用スタイル
         font-weight: lighter;
         text-decoration: none;
     }
+    #tp-more>a:hover{
+        color: #FFAD75;
+    }
     /*TopGalleryセクション*/
     #top-gallery{
-        display: none;
+        margin: 30px ;
     }
     #tg-backimg{
         position: relative;
         align-items: center;
     }
     #tg-img{
-        width: 100%;
-        height: auto;
-        position: relative;
-        pointer-events:none
+        display: none;
     }
     #tg-box{
-        position: absolute;
-        top:50%;
-        transform: translate(0%, -50%);
-        padding: 20px 0;
-        background-color: rgba(255, 255, 255, 0.75);
         width: 100%;
-        height: 75%;
         display: flex;
         flex-flow: column;
         justify-content: space-between;
     }
     #tg-box > h1{
-        text-align: center;
-        margin-top: 0;
+        width: fit-content;
+        margin: 0 auto 10px;
         font-size: 30px;
         font-weight: lighter;
-        margin-bottom: auto;
     }
     .Container {
-        position: relative;
-        width: 100%;
-        height: 75%;
-        overflow: hidden;
-    }
-    .Box-Container {
-        display: flex;
-        width: fit-content;
-        transition: transform 0.5s ease;
-        transform: translateX(0);
-        height: 100%;
-        margin: auto 0;
-    }
-    .Box {
-        flex-shrink: 0;
-        width: fit-content;
-        margin: 0 10px;
-    }
-    .Box > img{
-        height: 100%;
-        width: auto;
-    }
-    .Arrow {
-        position: absolute;
-        top: 50%;
-        transform: translateY(-50%);
-        width: 35px;
-        height: 35px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        cursor: pointer;
-    }
-    .Arrow.left {
-        left: 20px;
-    }
-    .Arrow.right {
-        right: 20px;
-    }
-    .Hide {
         display: none;
     }
-    .Box{
-        pointer-events:none
+    .Container-sp{
+        width: fit-content;
+        margin: 0 auto;
+    }
+    .Container-sp-img{
+        width: 32%;
+        height: auto;
     }
     #tg-more{
         text-align: right;
         margin-top: auto;
-        margin-right: 20px;
+        margin-top: 15px;
     }
     #tg-more>a{
         color: #000000;
@@ -1473,8 +1434,7 @@ PC用スタイル
         text-decoration: none;
     }
     #tg-more>a:hover{
-        color: #000000;
-        text-decoration: underline;
+        color: #FFAD75;
     }
 
 
@@ -1524,25 +1484,25 @@ PC用スタイル
     }
     #latest-news>h1, #past-news>h1{
         text-align: center;
-        font-size: 24px;
+        font-size: 18px;
         font-weight: lighter;
         margin:10px 0;
     }
     #latest-news-box{
         width: 100%;
         display: flex;
+        flex-flow: column;
         position: relative;
+        border: #FFAD75 1px solid;
+        margin-bottom: 20px;
     }
     #latest-news-img-box{
-        width: 25%;
-        height: 100%;
+        width: 100%;
+        height: fit-content;
         margin: auto 0;
     }
     #latest-news-text-box{
-        background-color:#FFAD75;
-        padding-left: 20px;
-        padding-right: 20px;
-        width: 75%;
+        padding:15px;
     }
     #latest-news-img{
         width: 100%;
@@ -1550,25 +1510,18 @@ PC用スタイル
         margin: auto 0;
     }
     #latest-news-days >h3{
-        margin: 20px 0 15px 0;
-        font-size: 16px;
+        margin: 0 0 7px;
+        font-size: 14px;
         font-weight: lighter;
     }
     #latest-news-ct>a{
-        font-size: 20px;
+        font-size: 16px;
         font-weight: lighter;
         text-decoration: none;
         color: #000000;
     }
     #latest-news-viewmore{
-        margin: 15px 0 15px 0;
-        text-align: right; 
-    }
-    #latest-news-viewmore>a{
-        font-size: 14px;
-        font-weight: lighter;
-        text-decoration: none;
-        color: #000000;
+        display: none;
     }
 
     #past-news{
@@ -1584,7 +1537,7 @@ PC用スタイル
         list-style-type: none;
     }
     .past-news-list{
-        margin: 0 auto 10px;
+        margin: 0 auto 15px;
         padding: 0;
         display: flex;
         flex-flow: row wrap;
@@ -1600,7 +1553,7 @@ PC用スタイル
         text-decoration: none;
     }
     .past-news-list-link > a:hover{
-        text-decoration: underline;
+        color: #FFAD75;
     }
 
 
@@ -1717,6 +1670,87 @@ PC用スタイル
         font-size: 14px;
         font-weight: lighter;
         margin: 0 0 10px 0;
+    }
+
+    /*-----Galleryページ-----*/
+    /*ヘッダー*/
+    #ga-box{
+        position: relative;
+        margin: 0,0,50px,0;
+        text-align: center;
+
+    }
+    #ga-header-img{
+        width: 100%;
+        height: auto;
+        pointer-events:none
+    }
+    #ga-title{
+        position: absolute;
+        top:60%;
+        left: 10%;
+        transform: translate(0%, -50%);
+    }
+    #ga-title-btn{
+        text-decoration: none;
+    }
+    #ga-title-btn:hover{
+        opacity: 0.8;
+    }
+    #ga-title-btn>h1{
+        font-size: 20px;
+        color: #FFAD75;
+        margin: 0;
+        font-weight:lighter;
+    }
+    #ga-title-btn>h2{
+        font-size: 14px;
+        color: #FFAD75;
+        margin: 0;
+        font-weight: lighter;
+    }
+
+    /*メイン*/
+    #gallery-art{
+        margin: 0 30px 30px ;
+    }
+    .ga-contents-box{
+        position: relative;
+        text-align: center;
+        width: 100%;
+        margin: 20px auto 30px auto;
+    }
+    .ga-contents-box > h1{
+        color: #000000;
+        font-size: 24px;
+        font-weight: lighter;
+        margin:10px 0 5px 0;
+    }
+    .ga-photo-box{
+        text-align: center;
+        width: fit-content;
+    }
+    .ga-photo-box img{
+        width: 45%;
+        height: auto;
+        object-fit: cover;
+    }
+    .ga-photo-box a{
+        color: #ffffff;
+    }
+
+    #ga-movie-box > h2{
+        color: #000000;
+        font-size: 16px;
+        font-weight: lighter;
+        margin:10px 0 5px 0;
+    }
+    #ga-movie-box >iframe{
+        aspect-ratio: 16 / 9;
+        width: 90%;
+        height: auto;
+        object-fit: cover;
+        margin: 0 auto;
     }
 
 }
