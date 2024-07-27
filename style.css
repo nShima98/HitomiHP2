@@ -50,6 +50,7 @@ PC用スタイル
         width: 50px;
         height: auto;
     }
+    /*ハンバーガーメニュー*/
     .nav-pc{
         position: absolute;
         top: 0;
@@ -172,6 +173,7 @@ PC用スタイル
         font-weight: lighter;
         color: #ffffff;
     }
+
     .site-map{
         position: relative;
         margin: 0;
@@ -297,7 +299,7 @@ PC用スタイル
         margin-top: 0;
         font-size: 30px;
         font-weight: lighter;
-        margin-bottom: 20px;
+        margin-bottom: 10px;
     }
     #tn-contents{
         display: block;
@@ -320,7 +322,7 @@ PC用スタイル
     #tn-more{
         text-align: right;
         margin-top: auto;
-        margin-top: 20px;
+        margin-top: 10px;
     }
     #tn-more>a{
         color: #000000;
@@ -357,7 +359,7 @@ PC用スタイル
         margin-top: 0;
         font-size: 30px;
         font-weight: lighter;
-        margin-bottom: 20px;
+        margin-bottom: 10px;
     }
     .tw-contents-link{
         margin-top: 5px;
@@ -377,7 +379,7 @@ PC用スタイル
     #tw-more{
         text-align: right;
         margin-top: auto;
-        margin-top: 20px;
+        margin-top: 10px;
     }
     #tw-more>a{
         color: #000000;
@@ -421,10 +423,13 @@ PC用スタイル
         margin-top: 0;
         font-size: 30px;
         font-weight: lighter;
-        margin-bottom: 20px;
+        margin-bottom: 15px;
+    }
+    #tp-box-img{
+        display: none;
     }
     #tp-contents1{
-        margin-bottom: 20px;
+        margin-bottom: 15px;
     }
     #tp-contents1 > h2{
         margin-top: 0;
@@ -432,11 +437,17 @@ PC用スタイル
         font-weight: lighter;
         margin-bottom: 5px;
     }
+    #tp-contents1 > h2 >span{
+        margin: 0 0 0 10px;
+        font-size: 14px;
+        font-weight: lighter;
+        color: #000000;
+    }
     #tp-contents1 > h3{
         margin-top: 0;
         font-size: 16px;
         font-weight: lighter;
-        margin-bottom: 15px;
+        margin-bottom: 10px;
     }
     #tp-contents1 > p, #tp-contents2 > p{
         margin-top: 0;
@@ -447,7 +458,7 @@ PC用スタイル
     #tp-more{
         text-align: right;
         margin-top: auto;
-        margin-top: 20px;
+        margin-top: 15px;
     }
     #tp-more>a{
         color: #000000;
@@ -960,5 +971,478 @@ PC用スタイル
     /*メイン*/
     #fanclub-art{
         margin: 0 50px 50px 50px;
+    }
+}
+
+
+/*スマホ用レイアウト*/
+@media screen and (Max-width: 767px){
+    body{
+        max-width: 767px;
+        margin: 0 auto 0 auto;
+        font-family:
+        'Hiragino Sans',
+        'Noto Sans JP', 
+        sans-serif;;
+    }
+    /*===全ページ共通要素===*/
+    /*ナビゲーションのリンクの装飾設定*(ヘッダー)*/
+    .hbg-btn-open{
+        position: absolute;
+        top: 15px;
+        left: 15px;
+    }
+    .hbg-btn-open>img{
+        width: 25px;
+        height: auto;
+    }
+    .nav-pc{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        min-height: 100vh;
+        background-color: #FFAD75;
+        text-align: center;
+        opacity: 0;
+        pointer-events: none;
+    }
+    .nav-pc.active{
+        opacity: 1;
+        pointer-events: auto;
+    }
+    .hbg-btn-close{
+        position: absolute;
+        top: 15px;
+        left: 15px;        
+    }
+    .hbg-btn-close > img{
+        width: 25px;
+        height: auto;
+    }
+    .nav-pc-box{
+        padding: 0;
+        margin: 0 auto;
+        width: fit-content;
+        min-height: 100vh;
+        display: flex;
+        flex-flow: column;
+        justify-content: space-between;
+    }
+    .nav-pc-title{
+        margin: 15px auto 0;
+        width: fit-content;
+    }    
+    .nav-pc-title>h1{
+        font-size: 20px;
+        color: #ffffff;
+        margin: 0;
+        font-weight: lighter;
+    }
+    .nav-pc-title>h2{
+        font-size: 14px;
+        color: #ffffff;
+        margin: 0;
+        font-weight: lighter;
+    }
+    .nav-pc-link{
+        margin: 20px auto;
+        display: flex;
+        flex-direction: column;
+        width: fit-content;
+    }
+    .nav-pc-link-btn{
+        font-size: 18px;
+        font-weight: lighter;
+        color: #ffffff;
+        text-decoration: none;
+        margin: 8px 0;
+    }
+    .nav-pc-sns{
+        display: flex;
+        margin: 0 auto 15px;
+    }
+    .nav-pc-sns-link{
+        margin: 0 20px 0;
+    }
+    .nav-pc-sns-share{
+        margin: 0 20px 0;
+    }
+    .nav-pc-sns-link>span,.nav-pc-sns-share>span{
+        text-decoration: none;
+        color: #ffffff;
+        font-size: 25px;
+        font-weight: lighter;
+    }
+
+    /*フッター*/
+    footer{
+        background-color: #FFAD75;
+        padding: 10px 0;
+        text-align: center;
+    }
+    #footer-link{
+        font-size: 24px;
+        font-weight: lighter;
+        margin: auto 0px;
+        display: flex;
+        flex-flow: column;
+    }
+    #footer-link > a{
+        margin: 10px 0;
+        text-decoration: none;
+        color: #ffffff;
+    }
+    #footer-sns{
+        margin: 20px 0px;
+    }
+    #footer-sns > a{
+        margin:0  20px;
+    }
+    
+    #sns-link,#sns-share{
+        margin: 20px auto;
+    }
+    #sns-link > span{
+        color: #ffffff;
+        font-weight: lighter;
+        font-size: 20px;
+    }
+    #sns-share > span{
+        color: #ffffff;
+        font-weight: lighter;
+        font-size: 20px;
+    }
+    #footer-name{
+        font-size: 14px;
+        font-weight: lighter;
+        color: #ffffff;
+    }
+    /*SNS*/
+    .sns-logo{
+        width: 20px;
+        height: auto;
+        margin-left: 10px;
+    }
+    /*===全ページ共通要素終了===*/
+
+
+    /*Topページ*/
+    /*ヘッダー*/
+    #th-box{
+        position: relative;
+        text-align: center;
+    }
+    #top-header-img{
+        width: 100%;
+        height: auto;
+        pointer-events:none
+    }
+    #top-title{
+        position: absolute;
+        top:65%;
+        left: 10%;
+        transform: translate(0%, -50%);
+    }
+    #top-title>h1{
+        font-size: 20px;
+        color: #FFAD75;
+        margin: 0;
+        font-weight: lighter;
+    }
+    #top-title>h2{
+        font-size: 14px;
+        color: #FFAD75;
+        margin: 0;
+        font-weight: lighter;
+    }
+    /*Topリンク*/
+    #top-link{
+        position: relative;
+        margin: 20px 10px;
+        text-align: center;
+    }
+    #tl-box{
+        position: relative;
+         margin: 5px;
+         display: flex;
+         flex-flow: column;
+    }
+    .tl-box>a{
+        text-decoration: none;
+        color: #000000;
+        font-size: 14px;
+        font-weight: lighter;
+    }
+    .tl-box > a:hover{
+        color: #FFAD75;
+        text-decoration: none;
+        font-weight: lighter;
+    }
+    .tl-img{
+        height : 50px;
+        width : auto;
+    }
+    /*TopNewsセクション*/
+    #top-news{
+        margin: 50px 20px ;
+    }
+    #tn-backimg{
+        position: relative;
+        display: flex;
+        align-items: center;
+    }
+    #tn-img{
+        display: none;
+    }
+    #tn-box{
+        width: auto;
+    }
+    #tn-box > h1{
+        width: fit-content;
+        margin: 0 auto 10px;
+        font-size: 30px;
+        font-weight: lighter;
+    }
+    #tn-contents{
+        display: block;
+        margin-bottom: auto;
+    }
+    #tn-contents>a{
+        color: #000000;
+        font-size: 14px;
+        font-weight: lighter;
+        text-decoration: none;
+    }
+    #tn-contents>a:hover{
+        text-decoration: underline;
+    }
+    #tn-boximg{
+        margin-top: 10px;
+        width: 100%;
+        height: auto;
+    }
+    #tn-more{
+        text-align: right;
+        margin-top: auto;
+        margin-top: 10px;
+    }
+    #tn-more>a{
+        color: #000000;
+        font-size: 18px;
+        font-weight: lighter;
+        text-decoration: none;
+    }
+    #tn-more>a:hover{
+        color: #000000;
+        text-decoration: underline;
+    }
+    /*TopWorksセクション*/
+    #top-works{
+        margin: 50px 20px;
+    }
+    #tw-img{
+        display: none;
+    }
+    #tw-box{
+        width: 100%;
+    }
+    #tw-box > h1{
+        width: fit-content;
+        margin: 0 auto 10px;
+        font-size: 30px;
+        font-weight: lighter;
+    }
+    .tw-contents-link{
+        margin-top: 5px;
+        color: #000000;
+        font-size: 14px;
+        font-weight: lighter;
+        text-decoration: none;
+        list-style: none;
+    }
+    .tw-contents-link>a{
+        color: #000000;
+        text-decoration: none;
+    }
+    .tw-contents-link:hover{
+        text-decoration: underline;
+    }
+    #tw-more{
+        text-align: right;
+        margin-top: auto;
+        margin-top: 10px;
+    }
+    #tw-more>a{
+        color: #000000;
+        font-size: 18px;
+        font-weight: lighter;
+        text-decoration: none;
+    }
+    #tw-more>a:hover{
+        color: #000000;
+        text-decoration: underline;
+    }
+    /*TopProfileセクション*/
+    #top-profile{
+        margin: 50px 20px;
+    }
+    #tp-backimg{
+        position: relative;
+        display: flex;
+        align-items: center;
+    }
+    #tp-img{
+        display: none;
+    }
+    #tp-box{
+        width: 100%;
+        text-align: center;
+    }
+    #tp-box > h1{
+        width: fit-content;
+        margin: 0 auto 10px;
+        font-size: 30px;
+        font-weight: lighter;
+    }
+    #tp-box-img{
+        width: 70%;
+        height: auto;
+        border-radius: 50%;
+        margin: 0 auto;
+    }
+    #tp-contents1 ,#tp-contents2{
+        margin-bottom: 15px;
+        padding-left: 10px;
+        text-align: left;
+    }
+    #tp-contents1 > h2{
+        margin-top: 0;
+        font-size: 20px;
+        font-weight: lighter;
+        margin-bottom: 5px;
+    }
+    #tp-contents1 > h2 >span{
+        margin: 0 0 0 10px;
+        font-size: 14px;
+        font-weight: lighter;
+        color: #000000;
+    }
+    #tp-contents1 > h3{
+        margin-top: 0;
+        font-size: 16px;
+        font-weight: lighter;
+        margin-bottom: 10px;
+    }
+    #tp-contents1 > p, #tp-contents2 > p{
+        margin-top: 0;
+        font-size: 14px;
+        font-weight: lighter;
+        margin: 0;
+    }
+    #tp-more{
+        text-align: right;
+        margin-top: auto;
+        margin-top: 15px;
+    }
+    #tp-more>a{
+        color: #000000;
+        font-size: 18px;
+        font-weight: lighter;
+        text-decoration: none;
+    }
+    /*TopGalleryセクション*/
+    #top-gallery{
+        display: none;
+    }
+    #tg-backimg{
+        position: relative;
+        align-items: center;
+    }
+    #tg-img{
+        width: 100%;
+        height: auto;
+        position: relative;
+        pointer-events:none
+    }
+    #tg-box{
+        position: absolute;
+        top:50%;
+        transform: translate(0%, -50%);
+        padding: 20px 0;
+        background-color: rgba(255, 255, 255, 0.75);
+        width: 100%;
+        height: 75%;
+        display: flex;
+        flex-flow: column;
+        justify-content: space-between;
+    }
+    #tg-box > h1{
+        text-align: center;
+        margin-top: 0;
+        font-size: 30px;
+        font-weight: lighter;
+        margin-bottom: auto;
+    }
+    .Container {
+        position: relative;
+        width: 100%;
+        height: 75%;
+        overflow: hidden;
+    }
+    .Box-Container {
+        display: flex;
+        width: fit-content;
+        transition: transform 0.5s ease;
+        transform: translateX(0);
+        height: 100%;
+        margin: auto 0;
+    }
+    .Box {
+        flex-shrink: 0;
+        width: fit-content;
+        margin: 0 10px;
+    }
+    .Box > img{
+        height: 100%;
+        width: auto;
+    }
+    .Arrow {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 35px;
+        height: 35px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+    }
+    .Arrow.left {
+        left: 20px;
+    }
+    .Arrow.right {
+        right: 20px;
+    }
+    .Hide {
+        display: none;
+    }
+    .Box{
+        pointer-events:none
+    }
+    #tg-more{
+        text-align: right;
+        margin-top: auto;
+        margin-right: 20px;
+    }
+    #tg-more>a{
+        color: #000000;
+        font-size: 18px;
+        font-weight: lighter;
+        text-decoration: none;
+    }
+    #tg-more>a:hover{
+        color: #000000;
+        text-decoration: underline;
     }
 }
