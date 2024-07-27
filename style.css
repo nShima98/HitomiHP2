@@ -975,6 +975,7 @@ PC用スタイル
 }
 
 
+/*--------------------------------------------------*/
 /*スマホ用レイアウト*/
 @media screen and (Max-width: 767px){
     body{
@@ -1118,6 +1119,32 @@ PC用スタイル
         font-weight: lighter;
         color: #ffffff;
     }
+    /*サイトマップ*/
+    .site-map{
+        position: relative;
+        margin: 0;
+    }
+    .site-map >p{
+        margin-top: 0px;
+        margin-bottom: 0;
+    }
+    .site-map >p,.site-map >p> a{
+        text-decoration: none;
+        color: #000000;
+        font-size: 14px;
+        font-weight: lighter;
+    }
+    /*各ページのタイトル*/
+    .page_title{
+        width: fit-content;
+        margin: 10px auto;
+    }
+    .page_title > h1{
+        color: #000000;
+        font-size: 24px;
+        font-weight: lighter;
+        margin: 0;
+    }
     /*SNS*/
     .sns-logo{
         width: 20px;
@@ -1253,6 +1280,10 @@ PC用スタイル
         font-size: 30px;
         font-weight: lighter;
     }
+    #tw-contents-box{
+        width: fit-content;
+        margin: 0 auto;
+    }
     .tw-contents-link{
         margin-top: 5px;
         color: #000000;
@@ -1306,7 +1337,7 @@ PC用スタイル
         font-weight: lighter;
     }
     #tp-box-img{
-        width: 70%;
+        width: 250px;
         height: auto;
         border-radius: 50%;
         margin: 0 auto;
@@ -1445,4 +1476,123 @@ PC用スタイル
         color: #000000;
         text-decoration: underline;
     }
+
+
+
+
+
+    /*-----Profileページ-----*/
+    /*ヘッダー*/
+    #pr-box{
+        position: relative;
+        margin: 0,0,50px,0;
+        text-align: center;
+    }
+    #pr-header-img{
+        width: 100%;
+        height: auto;
+        pointer-events:none
+    }
+    #pr-title{
+        position: absolute;
+        top:65%;
+        right: 10%;
+        transform: translate(0%, -50%);
+    }
+    #pr-title-btn{
+        text-decoration: none;
+    }
+    #pr-title-btn:hover{
+        opacity: 0.8;
+    }
+    #pr-title-btn>h1{
+        font-size: 20px;
+        color: #ffffff;
+        margin: 0;
+        font-weight:lighter;
+    }
+    #pr-title-btn>h2{
+        font-size: 14px;
+        color: #ffffff;
+        margin: 0;
+        font-weight: lighter;
+    }
+    /*メイン*/
+    #profile-art{
+        margin: 0 20px 30px 20px;
+    }
+    #profile-box{
+        margin: 20px auto;
+        display: flex;
+        flex-flow: column;
+    }
+    #profile-text-box{
+        margin: 0;
+        order: 2;
+    }
+    #profile-text-box > h1{
+        margin: 0;
+        font-size: 24px;
+        font-weight: lighter;
+        color: #000000;
+    }
+    #profile-text-box >h1> span{
+        margin: 0 0 0 10px;
+        font-size: 14px;
+        font-weight: lighter;
+        color: #000000;
+    }
+    #profile-text-box > h2{
+        margin: 0 0 10px 0;
+        font-size: 16px;
+        font-weight: lighter;
+        color: #000000;
+    }
+    .pr-text{
+        margin: 15px 0;
+    }
+    .pr-text > p{
+        margin: 0;
+        font-size: 14px;
+        font-weight: lighter;
+        color: #000000;
+    }
+    #pr-sns-link{
+        text-align: right;
+        margin-top: 15px;
+    }
+
+    #profile-img{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        order: 1;
+    }
+    #profile-fp{
+        border-radius: 50%;
+        max-width: 250px;
+        height: auto;
+    }
+    .activity-record{
+        max-width: 1024px;
+        margin: 30px auto;
+        text-align: center;
+    }
+    .activity-record>h1{
+        font-size: 24px;
+        font-weight: lighter;
+        margin: 0 0 10px 0;
+    }
+    .activity-record-list{
+        width: fit-content;
+        margin: 0 auto;
+        text-align: left;
+    }
+    .activity-record-list > p{
+        font-size: 14px;
+        font-weight: lighter;
+        margin: 0 0 10px 0;
+    }
+
 }
