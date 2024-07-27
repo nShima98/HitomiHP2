@@ -1087,7 +1087,7 @@ PC用スタイル
         text-align: center;
     }
     #footer-link{
-        font-size: 24px;
+        font-size: 20px;
         font-weight: lighter;
         margin: auto 0px;
         display: flex;
@@ -1107,7 +1107,7 @@ PC用スタイル
     }
     
     #sns-link,#sns-share{
-        margin: 5px auto;
+        margin: 10px auto;
     }
     #sns-link > span{
         color: #ffffff;
@@ -1136,13 +1136,13 @@ PC用スタイル
     .site-map >p,.site-map >p> a{
         text-decoration: none;
         color: #000000;
-        font-size: 14px;
+        font-size: 12px;
         font-weight: lighter;
     }
     /*各ページのタイトル*/
     .page_title{
         width: fit-content;
-        margin: 0 auto 10px;
+        margin: 0 auto 5px;
     }
     .page_title > h1{
         color: #000000;
@@ -1416,6 +1416,7 @@ PC用スタイル
     }
     .Container-sp{
         width: fit-content;
+        text-align: center;
         margin: 0 auto;
     }
     .Container-sp-img{
@@ -1556,7 +1557,47 @@ PC用スタイル
         color: #FFAD75;
     }
 
-
+    /*-----Worksページ-----*/
+    /*ヘッダー*/
+    #wo-box{
+        position: relative;
+        margin: 0,0,50px,0;
+        text-align: center;
+    }
+    #wo-header-img{
+        width: 100%;
+        height: auto;
+        pointer-events:none
+    }
+    #wo-title{
+        position: absolute;
+        top:60%;
+        left: 10%;
+        transform: translate(0%, -50%);
+    }
+    #wo-title-btn{
+        text-decoration: none;
+    }
+    #wo-title-btn:hover{
+        opacity: 0.8;
+    }
+    #wo-title-btn>h1{
+        font-size: 20px;
+        color: #000000;
+        margin: 0;
+        font-weight:lighter;
+    }
+    #wo-title-btn>h2{
+        font-size: 14px;
+        color: #000000;
+        margin: 0;
+        font-weight: lighter;
+    }
+    /*メイン*/
+    #works-art{
+        margin: 0 30px 30px ;
+        min-height: 0.8vh;
+    }
 
     /*-----Profileページ-----*/
     /*ヘッダー*/
@@ -1718,13 +1759,13 @@ PC用スタイル
         position: relative;
         text-align: center;
         width: 100%;
-        margin: 20px auto 30px auto;
+        margin: 0 auto 20px auto;
     }
     .ga-contents-box > h1{
         color: #000000;
-        font-size: 24px;
+        font-size: 18px;
         font-weight: lighter;
-        margin:10px 0 5px 0;
+        margin:10px 0;
     }
     .ga-photo-box{
         text-align: center;
@@ -1753,4 +1794,42 @@ PC用スタイル
         margin: 0 auto;
     }
 
+    /*-----Funclubページ-----*/
+    /*ヘッダー*/
+    #fa-box{
+        position: relative;
+        margin: 0,0,50px,0;
+        text-align: center;
+    }
+    #fa-header-img{
+        width: 100%;
+        height: auto;
+        pointer-events:none
+    }
+    #fa-title{
+        position: absolute;
+        top:60%;
+        left: 10%;
+        transform: translate(0%, -50%);
+    }
+    #fa-title>a{
+        text-decoration: none;
+    }
+    #fa-title>a>h1{
+        font-size: 20px;
+        color: #000000;
+        margin: 0;
+        font-weight:lighter;
+    }
+    #fa-title>a>h2{
+        font-size: 14px;
+        color: #000000;
+        margin: 0;
+        font-weight: lighter;
+    }
+
+    /*メイン*/
+    #fanclub-art{
+        margin: 0 30px 30px ;
+    }
 }
