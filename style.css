@@ -1030,11 +1030,11 @@ PC用スタイル
         justify-content: space-between;
     }
     .nav-pc-title{
-        margin: 15px auto 0;
+        margin: 13px auto 0;
         width: fit-content;
     }    
     .nav-pc-title>h1{
-        font-size: 20px;
+        font-size: 24px;
         color: #ffffff;
         margin: 0;
         font-weight: lighter;
@@ -1052,7 +1052,7 @@ PC用スタイル
         width: fit-content;
     }
     .nav-pc-link-btn{
-        font-size: 18px;
+        font-size: 24px;
         font-weight: lighter;
         color: #ffffff;
         text-decoration: none;
@@ -1060,18 +1060,18 @@ PC用スタイル
     }
     .nav-pc-sns{
         display: flex;
-        margin: 0 auto 15px;
+        margin: 0 auto 50px;
     }
     .nav-pc-sns-link{
         margin: 0 20px 0;
     }
     .nav-pc-sns-share{
-        margin: 0 20px 0;
+        margin: 0 0px 0;
     }
     .nav-pc-sns-link>span,.nav-pc-sns-share>span{
         text-decoration: none;
         color: #ffffff;
-        font-size: 25px;
+        font-size: 18px;
         font-weight: lighter;
     }
 
