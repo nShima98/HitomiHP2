@@ -252,6 +252,12 @@ PC用スタイル
     #tl-box{
         position: relative;
     }
+    #tl-box>h1{
+        margin-top: 0;
+        font-size: 30px;
+        font-weight: lighter;
+        margin-bottom: 10px;
+    }
     .tl-box{
          margin: 0 5px;
          display: inline-block;
@@ -263,8 +269,8 @@ PC用スタイル
         font-weight: lighter;
     }
     .tl-box > a:hover{
-        color: #FFAD75;
-        text-decoration: none;
+        color: #000000;
+        text-decoration: underline;
         font-weight: lighter;
     }
     .tl-img{
@@ -400,9 +406,6 @@ PC用スタイル
         position: relative;
         display: flex;
         align-items: center;
-    }
-    #top-profile{
-        margin: 50px 0;
     }
     #tp-img{
         width: 100%;
@@ -566,6 +569,60 @@ PC用スタイル
     }
     .Container-sp{
         display: none;
+    }
+
+    /*TopFunclubセクション*/
+    #top-fanclub{
+        margin: 50px 0;
+        position: relative;
+    }
+    #tf-img{
+        width: 100%;
+        height: auto;
+        position: relative;
+        pointer-events:none
+    }
+    #tf-box{
+        position: absolute;
+        top:50%;
+        left: 50px;
+        transform: translate(0%, -50%);
+        padding: 20px;
+        background-color: rgba(255, 255, 255, 0.75);
+        width: auto;
+    }
+    #tf-box > h1{
+        margin-top: 0;
+        font-size: 30px;
+        font-weight: lighter;
+        margin-bottom: 10px;
+    }
+    #tf-box > h2{
+        margin-top: 0;
+        font-size: 18px;
+        font-weight: lighter;
+        margin-bottom: 5px;
+    }
+    #tf-box > p{
+        margin-top: 0;
+        font-size: 14px;
+        font-weight: lighter;
+        margin-bottom: 5px;
+    }
+    #tf-more{
+        text-align: right;
+        margin-top: auto;
+        margin-top: 10px;
+    }
+    #tf-more>a{
+        color: #000000;
+        font-size: 18px;
+        font-weight: lighter;
+        text-decoration: none;
+    }
+    #tf-more>a:hover{
+        color: #000000;
+        text-decoration: underline;
     }
 
 
@@ -1186,15 +1243,16 @@ PC用スタイル
     }
     /*Topリンク*/
     #top-link{
-        position: relative;
-        margin: 10px 30px ;
+        margin: 10px 30px 30px ;
         text-align: center;
     }
     #tl-box{
         position: relative;
-         margin: 5px;
-         display: flex;
-         flex-flow: column;
+        display: flex;
+        flex-flow: column;
+    }
+    .tl-box{
+        margin-bottom: 10px;
     }
     .tl-box>a{
         text-decoration: none;
@@ -1210,6 +1268,12 @@ PC用スタイル
     .tl-img{
         height : 50px;
         width : auto;
+    }
+    #tl-box > h1{
+        width: fit-content;
+        margin: 0 auto 10px;
+        font-size: 30px;
+        font-weight: lighter;
     }
     /*TopNewsセクション*/
     #top-news{
@@ -1315,7 +1379,7 @@ PC用スタイル
     }
     /*TopProfileセクション*/
     #top-profile{
-        margin: 30px ;
+        margin: 30px;
     }
     #tp-backimg{
         position: relative;
@@ -1386,7 +1450,7 @@ PC用スタイル
     }
     /*TopGalleryセクション*/
     #top-gallery{
-        margin: 30px ;
+        margin: 30px 0;
     }
     #tg-backimg{
         position: relative;
@@ -1423,6 +1487,7 @@ PC用スタイル
         text-align: right;
         margin-top: auto;
         margin-top: 15px;
+        margin-right: 30px;
     }
     #tg-more>a{
         color: #000000;
@@ -1433,7 +1498,50 @@ PC用スタイル
     #tg-more>a:hover{
         color: #FFAD75;
     }
-
+    /*TopFunclubセクション*/
+    #top-fanclub{
+        margin: 30px ;
+    }
+    #tf-img{
+        display: none;
+    }
+    #tf-box{
+        width: 100%;
+        text-align: center;
+    }
+    #tf-box > h1{
+        width: fit-content;
+        margin: 0 auto 10px;
+        font-size: 30px;
+        font-weight: lighter;
+    }
+    #tf-box > h2{
+        width: fit-content;
+        margin: 0 auto 10px;
+        font-size: 18px;
+        font-weight: lighter;
+    }
+    #tf-box > p{
+        text-align: left;
+        margin-top: 0;
+        font-size: 14px;
+        font-weight: lighter;
+        margin-bottom: 10px;
+    }
+    #tf-more{
+        text-align: right;
+        margin-top: auto;
+        margin-top: 15px;
+    }
+    #tf-more>a{
+        color: #000000;
+        font-size: 18px;
+        font-weight: lighter;
+        text-decoration: none;
+    }
+    #tf-more>a:hover{
+        color: #FFAD75;
+    }
 
 
 
