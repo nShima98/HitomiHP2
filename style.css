@@ -16,7 +16,7 @@ PC用スタイル
     /*フッター*/
     footer{
         background-color: #FFAD75;
-        padding: 40px 80px 5px 80px;
+        padding: 40px 0 5px;
         text-align: center;
     }
     /*ナビゲーションのレイアウト(フッター)*/
@@ -126,10 +126,10 @@ PC用スタイル
         margin: 0 auto 75px;
     }
     .nav-pc-sns-link{
-        margin: 0 20px 0;
+        margin: 0 30px 0;
     }
     .nav-pc-sns-share{
-        margin: 0 20px 0;
+        margin: 0 30px 0;
     }
     .nav-pc-sns-link>span,.nav-pc-sns-share>span{
         text-decoration: none;
@@ -788,6 +788,92 @@ PC用スタイル
     /*メイン*/
     #works-art{
         margin: 0 50px 50px 50px;
+    }
+    .works-box{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 1024px;
+        margin: 20px auto;
+        padding: 0;
+        list-style: none;
+    }
+    .works-container{
+        margin: 0 0 70px 0;
+        width: 33.3333%;
+        padding: 0 15px 0;
+        box-sizing: border-box;
+    }
+    .works-container-img-box{
+        width: 100%;
+        height: fit-content;
+    }
+    .works-container-img{
+        width: 100%;
+        aspect-ratio: 297 / 210;
+        object-fit: cover;
+    }
+    .works-container-date{
+        margin: 0 0 0 10px ;
+    }
+    .works-container-date>p{
+        font-size: 14px;
+        font-weight: lighter;
+        margin: 0;
+    }
+    .works-container-text{
+        margin: 0 0 0 10px ;
+    }
+    .works-container-text>a{
+        font-size: 16px;
+        font-weight: lighter;
+        text-decoration: none;
+        margin: 0;
+        color: #000000;
+    }
+    .works-container-text>a:hover{
+        text-decoration: underline;
+    }
+
+    .works-next.disable,.works-prev.disable {
+        pointer-events: none;
+        background: #ddd;
+    }
+    .works-pagination {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+    .works-pagination p {
+        border: 1px solid #ddd;
+        padding: 5px 10px;
+        margin: 0 5px;
+        background: #FFAD75;
+        color: #fff
+    }
+    .works-next:hover, .works-prev:hover, .works-page-counter li:hover {
+        cursor: pointer;
+    }
+    .works-page-counter {
+        display: flex;
+        list-style: none;
+        padding-left: 0;
+        margin: 0 10px;
+    }
+
+    .works-page1counter li {
+        border: 1px solid #FFAD75;
+        padding: 5px 10px;
+    }
+
+    .works-page1counter li.current {
+        background: #FFAD75;
+        color: #fff;
+    }
+
+    .works-page-counter li + li {
+        margin-left: 5px;
     }
 
 
