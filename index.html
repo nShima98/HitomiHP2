@@ -3,10 +3,12 @@
     <head>
         <title>布川仁美 official website</title>
         <link rel="icon" href="images/NH_favicon.svg">
+        <link rel="stylesheet" type="text/css" href="CSS/style.css">
+        <link rel="stylesheet" type="text/css" href="CSS/slick.css"/>
+        <link rel="stylesheet" type="text/css" href="CSS/slick-theme.css"/>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" content="こころアーティスト布川仁美の公式ホームページです">
-        <link rel="stylesheet" href="style.css">
     </head>
 
     <body>
@@ -107,8 +109,7 @@
                                 <h2>布川 仁美<span>Hitomi Nunokawa</span></h2>
                                 <h3>こころアーティスト</h3>
                                 <p>2000年7月24日生まれ、東京都出身。
-                                <br>サンプルテキストサンプルテキストサンプルテキスト
-                                <br>サンプルテキストサンプルテキストサンプルテキスト</p>
+                                <br>サンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキスト</p>
                             </div>
                             <div id="tp-contents2">
                                 <p>特技：アクロバット・即興ダンス</p>
@@ -128,17 +129,13 @@
                         <img id="tg-img" src="images/top_gallery_back.png" alt="トップページGallery背景">
                         <div id="tg-box">
                             <h1>Gallery</h1>
-                            <div class="Container">
-                                <div class="Box-Container">
-                                  <div class="Box"><img src="images/tg-HitomiNunokawa04.png"></div>
-                                  <div class="Box"><img src="images/tg-HitomiNunokawa02.png"></div>
-                                  <div class="Box"><img src="images/tg-HitomiNunokawa01.png"></div>
-                                  <div class="Box"><img src="images/tg-HitomiNunokawa03.png"></div>
-                                  <div class="Box"><img src="images/tg-HitomiNunokawa05.png"></div>
-                                </div>
-                                <div class="Arrow left"><img src="images/arrow_left.svg"></div>
-                                <div class="Arrow right"><img src="images/arrow_right.svg"></div>
-                            </div>
+                            <ul class="tg-slider-box">
+                                <li class="tg-slider-list"><img class="tg-slider-img" src="images/tg-HitomiNunokawa04.png"></li>
+                                <li class="tg-slider-list"><img class="tg-slider-img" src="images/tg-HitomiNunokawa02.png"></li>
+                                <li class="tg-slider-list"><img class="tg-slider-img" src="images/tg-HitomiNunokawa03.png"></li>
+                                <li class="tg-slider-list"><img class="tg-slider-img" src="images/tg-HitomiNunokawa05.png"></li>
+                                <li class="tg-slider-list"><img class="tg-slider-img" src="images/tg-HitomiNunokawa01.png"></li> 
+                            </ul>
                             <div class="Container-sp">
                                 <img class="Container-sp-img" src="images/ga-HitomiNunokawa01-min.png">
                                 <img class="Container-sp-img" src="images/ga-HitomiNunokawa02-min.png">
@@ -209,6 +206,22 @@
                 <span id="footer-name">布川仁美 official</span>
             </footer>
         </main>
-        <script src="script.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+        <script src="JS/script.js"></script>
+        <script type="text/javascript" src="JS/slick.js"></script>
+        <script>
+            $(document).ready(function(){
+                $('.tg-slider-box').slick({
+                    dots: true,
+                    centerMode: true,
+                    centerMode: true,
+                    centerPadding: '30%',
+                    autoplaySpeed: 3000,
+                    speed: 700,
+                    infinite: true,
+                    variableWidth: true,
+                });
+            });
+        </script>
     </body>
 </html>
