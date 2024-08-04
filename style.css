@@ -807,6 +807,7 @@ PC用スタイル
     .works-container-img-box{
         width: 100%;
         height: fit-content;
+        aspect-ratio: 297 / 210;
     }
     .works-container-img{
         width: 100%;
@@ -1787,6 +1788,9 @@ PC用スタイル
     #works-art{
         margin: 0 30px 30px ;
         min-height: 0.8vh;
+    }
+    .works-box{
+        display: none;
     }
 
     /*-----Profileページ-----*/
