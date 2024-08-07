@@ -1272,8 +1272,8 @@ PC用スタイル
     }
     .page_title > h1{
         color: #F39518;
-        font-size: 24px;
-        font-weight: 100;
+        font-size: 26px;
+        font-weight: 150;
         margin: 0;
     }
     /*SNS*/
@@ -1327,6 +1327,13 @@ PC用スタイル
     .tl-box{
         margin-bottom: 10px;
     }
+    #tl-box > h1{
+        width: fit-content;
+        margin: 0 auto 10px;
+        font-size: 30px;
+        font-weight: 100;
+        color: #F39518;
+    }
     .tl-box>a{
         text-decoration: none;
         color: #000000;
@@ -1366,7 +1373,7 @@ PC用スタイル
     #tn-box > h1{
         width: fit-content;
         margin: 0 auto 10px;
-        font-size: 24px;
+        font-size: 30px;
         font-weight: 100;
         color: #F39518;
     }
@@ -1415,7 +1422,7 @@ PC用スタイル
     #tw-box > h1{
         width: fit-content;
         margin: 0 auto 10px;
-        font-size: 24px;
+        font-size: 30px;
         font-weight: 100;
         color: #F39518;
     }
@@ -1471,7 +1478,7 @@ PC用スタイル
     #tp-box > h1{
         width: fit-content;
         margin: 0 auto 10px;
-        font-size: 24px;
+        font-size: 30px;
         font-weight: 100;
         color: #F39518;
     }
@@ -1544,7 +1551,7 @@ PC用スタイル
     #tg-box > h1{
         width: fit-content;
         margin: 0 auto 10px;
-        font-size: 24px;
+        font-size: 30px;
         font-weight: 100;
         color: #F39518;
     }
@@ -1589,7 +1596,7 @@ PC用スタイル
     #tf-box > h1{
         width: fit-content;
         margin: 0 auto 10px;
-        font-size: 24px;
+        font-size: 30px;
         font-weight: 100;
         color: #F39518;
     }
@@ -1950,7 +1957,7 @@ PC用スタイル
         color: #000000;
         font-size: 18px;
         font-weight: 100;
-        margin:10px 0;
+        margin:10px 0 5px;
     }
     .ga-photo-box{
         text-align: center;
