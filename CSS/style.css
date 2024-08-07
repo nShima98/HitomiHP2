@@ -241,7 +241,7 @@ PC用スタイル
         font-size: 20px;
         color: #F39518;
         margin: 0;
-        font-weight: 100;
+        font-weight: 150;
     }
 
     /*Topリンク*/
@@ -1366,8 +1366,9 @@ PC用スタイル
     #tn-box > h1{
         width: fit-content;
         margin: 0 auto 10px;
-        font-size: 30px;
+        font-size: 24px;
         font-weight: 100;
+        color: #F39518;
     }
     #tn-contents{
         display: block;
@@ -1414,8 +1415,9 @@ PC用スタイル
     #tw-box > h1{
         width: fit-content;
         margin: 0 auto 10px;
-        font-size: 30px;
+        font-size: 24px;
         font-weight: 100;
+        color: #F39518;
     }
     #tw-contents-box{
         width: fit-content;
@@ -1469,8 +1471,9 @@ PC用スタイル
     #tp-box > h1{
         width: fit-content;
         margin: 0 auto 10px;
-        font-size: 30px;
+        font-size: 24px;
         font-weight: 100;
+        color: #F39518;
     }
     #tp-box-img{
         width: 250px;
@@ -1541,8 +1544,9 @@ PC用スタイル
     #tg-box > h1{
         width: fit-content;
         margin: 0 auto 10px;
-        font-size: 30px;
+        font-size: 24px;
         font-weight: 100;
+        color: #F39518;
     }
     .tg-slider-box {
         display: none;
@@ -1585,8 +1589,9 @@ PC用スタイル
     #tf-box > h1{
         width: fit-content;
         margin: 0 auto 10px;
-        font-size: 30px;
+        font-size: 24px;
         font-weight: 100;
+        color: #F39518;
     }
     #tf-box > h2{
         width: fit-content;
