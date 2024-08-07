@@ -641,7 +641,7 @@ PC用スタイル
         font-size: 20px;
         color: #000000;
         margin: 0;
-        font-weight: 100;
+        font-weight: 150;
     }
 
     /*メイン*/
@@ -759,13 +759,13 @@ PC用スタイル
         font-size: 40px;
         color: #000000;
         margin: 0;
-        font-weight:100;
+        font-weight:150;
     }
     #wo-title-btn>h2{
         font-size: 20px;
         color: #000000;
         margin: 0;
-        font-weight: 100;
+        font-weight: 150;
     }
     /*メイン*/
     #works-art{
@@ -891,13 +891,13 @@ PC用スタイル
         font-size: 40px;
         color: #ffffff;
         margin: 0;
-        font-weight:100;
+        font-weight:150;
     }
     #pr-title-btn>h2{
         font-size: 20px;
         color: #ffffff;
         margin: 0;
-        font-weight: 100;
+        font-weight: 150;
     }
     /*メイン*/
     #profile-art{
@@ -1007,13 +1007,13 @@ PC用スタイル
         font-size: 40px;
         color: #F39518;
         margin: 0;
-        font-weight:100;
+        font-weight:150;
     }
     #ga-title-btn>h2{
         font-size: 20px;
         color: #F39518;
         margin: 0;
-        font-weight: 100;
+        font-weight: 150;
     }
 
     /*メイン*/
@@ -1084,13 +1084,13 @@ PC用スタイル
         font-size: 40px;
         color: #000000;
         margin: 0;
-        font-weight:100;
+        font-weight:150;
     }
     #fa-title>a>h2{
         font-size: 20px;
         color: #000000;
         margin: 0;
-        font-weight: 100;
+        font-weight: 150;
     }
 
     /*メイン*/
