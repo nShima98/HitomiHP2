@@ -16,7 +16,7 @@ PC用スタイル
     /*===全ページ共通要素===*/
     /*フッター*/
     footer{
-        background-color: #FFAD75;
+        background-color: #F39518;
         padding: 40px 0 5px;
         text-align: center;
     }
@@ -58,7 +58,7 @@ PC用スタイル
         left: 0;
         width: 100%;
         min-height: 100vh;
-        background-color: #FFAD75;
+        background-color: #F39518;
         text-align: center;
         outline: #ffffff solid 3px;
         outline-offset: -50px;
@@ -203,7 +203,7 @@ PC用スタイル
         margin: 20px auto 20px auto;
     }
     .page_title > h1{
-        color: #000000;
+        color: #F39518;
         font-size: 36px;
         font-weight: 100;
         margin: 0;
@@ -217,7 +217,7 @@ PC用スタイル
         position: relative;
         margin: 0 0 50px 0;
         text-align: center;
-        outline: #FFAD75 solid 3px;
+        outline: #F39518 solid 3px;
         outline-offset: -50px;
     }
     #top-header-img{
@@ -233,13 +233,13 @@ PC用スタイル
     }
     #top-title>h1{
         font-size: 40px;
-        color: #FFAD75;
+        color: #F39518;
         margin: 0;
-        font-weight: 100;
+        font-weight: 150;
     }
     #top-title>h2{
         font-size: 20px;
-        color: #FFAD75;
+        color: #F39518;
         margin: 0;
         font-weight: 100;
     }
@@ -325,7 +325,7 @@ PC用スタイル
         text-decoration: underline;
     }
     #tn-boximg{
-        margin-top: 10px;
+        margin: 10px auto 0;
         width: 300px;
         height: auto;
     }
@@ -635,7 +635,7 @@ PC用スタイル
         font-size: 40px;
         color: #000000;
         margin: 0;
-        font-weight:100;
+        font-weight:150;
     }
     #nw-title-btn>h2{
         font-size: 20px;
@@ -660,6 +660,7 @@ PC用スタイル
         display: flex;
         position: relative;
         margin-bottom: 20px;
+        justify-content: center;
     }
     #latest-news-img-box{
         width: 25%;
@@ -667,10 +668,9 @@ PC用スタイル
         margin: auto 0;
     }
     #latest-news-text-box{
-        background-color:#FFAD75;
-        padding-left: 20px;
-        padding-right: 20px;
-        width: 75%;
+        background-color:#F39518;
+        padding: 20px;
+        width: fit-content;
     }
     #latest-news-img{
         width: 100%;
@@ -679,11 +679,14 @@ PC用スタイル
     }
     #latest-news-days >h3{
         margin: 20px 0 15px 0;
-        font-size: 16px;
+        font-size: 14px;
         font-weight: 100;
     }
+    #latest-news-ct{
+        margin: auto 0;
+    }
     #latest-news-ct > a{
-        font-size: 20px;
+        font-size: 16px;
         font-weight: 100;
         text-decoration: none;
         color: #000000;
@@ -829,7 +832,7 @@ PC用スタイル
         border: 1px solid #ddd;
         padding: 5px 10px;
         margin: 0 5px;
-        background: #FFAD75;
+        background: #F39518;
         color: #fff
     }
     .works-next:hover, .works-prev:hover, .works-page-counter li:hover {
@@ -843,12 +846,12 @@ PC用スタイル
     }
 
     .works-page1counter li {
-        border: 1px solid #FFAD75;
+        border: 1px solid #F39518;
         padding: 5px 10px;
     }
 
     .works-page1counter li.current {
-        background: #FFAD75;
+        background: #F39518;
         color: #fff;
     }
 
@@ -980,7 +983,7 @@ PC用スタイル
         position: relative;
         margin: 0,0,50px,0;
         text-align: center;
-        outline: #FFAD75 solid 3px;
+        outline: #F39518 solid 3px;
         outline-offset: -50px;
     }
     #ga-header-img{
@@ -1002,13 +1005,13 @@ PC用スタイル
     }
     #ga-title-btn>h1{
         font-size: 40px;
-        color: #FFAD75;
+        color: #F39518;
         margin: 0;
         font-weight:100;
     }
     #ga-title-btn>h2{
         font-size: 20px;
-        color: #FFAD75;
+        color: #F39518;
         margin: 0;
         font-weight: 100;
     }
@@ -1126,7 +1129,7 @@ PC用スタイル
         left: 0;
         width: 100%;
         min-height: 100vh;
-        background-color: #FFAD75;
+        background-color: #F39518;
         text-align: center;
         opacity: 0;
         pointer-events: none;
@@ -1202,7 +1205,7 @@ PC用スタイル
 
     /*フッター*/
     footer{
-        background-color: #FFAD75;
+        background-color: #F39518;
         padding: 10px 0;
         text-align: center;
     }
@@ -1259,13 +1262,16 @@ PC用スタイル
         font-size: 12px;
         font-weight: 100;
     }
+    .site-map >p>a:hover{
+        color: #F39518;
+    }
     /*各ページのタイトル*/
     .page_title{
         width: fit-content;
         margin: 0 auto 5px;
     }
     .page_title > h1{
-        color: #000000;
+        color: #F39518;
         font-size: 24px;
         font-weight: 100;
         margin: 0;
@@ -1298,13 +1304,13 @@ PC用スタイル
     }
     #top-title>h1{
         font-size: 20px;
-        color: #FFAD75;
+        color: #F39518;
         margin: 0;
         font-weight: 100;
     }
     #top-title>h2{
         font-size: 14px;
-        color: #FFAD75;
+        color: #F39518;
         margin: 0;
         font-weight: 100;
     }
@@ -1328,7 +1334,7 @@ PC用スタイル
         font-weight: 100;
     }
     .tl-box > a:hover{
-        color: #FFAD75;
+        color: #F39518;
         text-decoration: none;
         font-weight: 100;
     }
@@ -1374,7 +1380,7 @@ PC用スタイル
         text-decoration: none;
     }
     #tn-contents>a:hover{
-        color: #FFAD75;
+        color: #F39518;
     }
     #tn-boximg{
         margin-top: 10px;
@@ -1393,7 +1399,7 @@ PC用スタイル
         text-decoration: none;
     }
     #tn-more>a:hover{
-        color: #FFAD75;
+        color: #F39518;
     }
     /*TopWorksセクション*/
     #top-works{
@@ -1428,7 +1434,7 @@ PC用スタイル
         text-decoration: none;
     }
     .tw-contents-link>a:hover{
-        color: #FFAD75;
+        color: #F39518;
     }
     #tw-more{
         text-align: right;
@@ -1442,7 +1448,7 @@ PC用スタイル
         text-decoration: none;
     }
     #tw-more>a:hover{
-        color: #FFAD75;
+        color: #F39518;
     }
     /*TopProfileセクション*/
     #top-profile{
@@ -1513,7 +1519,7 @@ PC用スタイル
         text-decoration: none;
     }
     #tp-more>a:hover{
-        color: #FFAD75;
+        color: #F39518;
     }
     /*TopGalleryセクション*/
     #top-gallery{
@@ -1563,7 +1569,7 @@ PC用スタイル
         text-decoration: none;
     }
     #tg-more>a:hover{
-        color: #FFAD75;
+        color: #F39518;
     }
     /*TopFunclubセクション*/
     #top-fanclub{
@@ -1607,7 +1613,7 @@ PC用スタイル
         text-decoration: none;
     }
     #tf-more>a:hover{
-        color: #FFAD75;
+        color: #F39518;
     }
 
 
@@ -1665,7 +1671,7 @@ PC用スタイル
         display: flex;
         flex-flow: column;
         position: relative;
-        border: #FFAD75 1px solid;
+        border: #F39518 1px solid;
         margin-bottom: 20px;
     }
     #latest-news-img-box{
@@ -1725,7 +1731,7 @@ PC用スタイル
         text-decoration: none;
     }
     .past-news-list-link > a:hover{
-        color: #FFAD75;
+        color: #F39518;
     }
 
     /*-----Worksページ-----*/
@@ -1914,13 +1920,13 @@ PC用スタイル
     }
     #ga-title-btn>h1{
         font-size: 20px;
-        color: #FFAD75;
+        color: #F39518;
         margin: 0;
         font-weight:100;
     }
     #ga-title-btn>h2{
         font-size: 14px;
-        color: #FFAD75;
+        color: #F39518;
         margin: 0;
         font-weight: 100;
     }
