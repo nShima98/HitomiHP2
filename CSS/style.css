@@ -1104,8 +1104,9 @@ PC用スタイル
         max-width: 767px;
         margin: 0 auto 0 auto;
         font-family:
-        'Hiragino Sans',
-        'Noto Sans JP', 
+        "Noto Sans JP", 
+        "Hiragino Sans",
+        "メイリオ", "Meiryo", 
         sans-serif;;
     }
     /*===全ページ共通要素===*/
