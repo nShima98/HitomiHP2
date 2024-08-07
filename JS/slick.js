@@ -3007,5 +3007,15 @@
         }
         return _;
     };
-
+    //TopPage gallery section
+    $(document).ready(function(){
+        $('.tg-slider-box').slick({
+            dots: true,
+            centerMode: true,
+            autoplaySpeed: 3000,
+            speed: 700,
+            infinite: true,
+            variableWidth: true,
+        });
+    });
 }));

@@ -8,8 +8,9 @@ PC用スタイル
         min-width: 768px;
         margin: 0 auto 0 auto;
         font-family:
-        'Hiragino Sans',
-        'Noto Sans JP', 
+        "Noto Sans JP", 
+        "Hiragino Sans",
+        "メイリオ", "Meiryo", 
         sans-serif;;
     }
     /*===全ページ共通要素===*/
@@ -22,7 +23,7 @@ PC用スタイル
     /*ナビゲーションのレイアウト(フッター)*/
     #footer-link{
         font-size: 24px;
-        font-weight: lighter;
+        font-weight: 100;
         margin: auto 0px;
     }
     #footer-link > a{
@@ -97,13 +98,13 @@ PC用スタイル
         font-size: 40px;
         color: #ffffff;
         margin: 0;
-        font-weight: lighter;
+        font-weight: 100;
     }
     .nav-pc-title>h2{
         font-size: 20px;
         color: #ffffff;
         margin: 0;
-        font-weight: lighter;
+        font-weight: 100;
     }
     .nav-pc-link{
         margin: 20px auto;
@@ -113,7 +114,7 @@ PC用スタイル
     }
     .nav-pc-link-btn{
         font-size: 32px;
-        font-weight: lighter;
+        font-weight: 100;
         color: #ffffff;
         text-decoration: none;
         margin: 8px 0;
@@ -135,7 +136,7 @@ PC用スタイル
         text-decoration: none;
         color: #ffffff;
         font-size: 25px;
-        font-weight: lighter;
+        font-weight: 100;
     }
 
 
@@ -160,17 +161,17 @@ PC用スタイル
     }
     #sns-link > span{
         color: #ffffff;
-        font-weight: lighter;
+        font-weight: 100;
         font-size: 20px;
     }
     #sns-share > span{
         color: #ffffff;
-        font-weight: lighter;
+        font-weight: 100;
         font-size: 20px;
     }
     #footer-name{
         font-size: 14px;
-        font-weight: lighter;
+        font-weight: 100;
         color: #ffffff;
     }
 
@@ -187,7 +188,7 @@ PC用スタイル
         text-decoration: none;
         color: #000000;
         font-size: 14px;
-        font-weight: lighter;
+        font-weight: 100;
     }
     .site-map >p>a:hover{
         text-decoration: underline;
@@ -199,12 +200,12 @@ PC用スタイル
     }
     .page_title{
         width: fit-content;
-        margin: 20px auto 50px auto;
+        margin: 20px auto 20px auto;
     }
     .page_title > h1{
         color: #000000;
         font-size: 36px;
-        font-weight: lighter;
+        font-weight: 100;
         margin: 0;
     }
     /*===全ページ共通要素終了===*/
@@ -234,13 +235,13 @@ PC用スタイル
         font-size: 40px;
         color: #FFAD75;
         margin: 0;
-        font-weight: lighter;
+        font-weight: 100;
     }
     #top-title>h2{
         font-size: 20px;
         color: #FFAD75;
         margin: 0;
-        font-weight: lighter;
+        font-weight: 100;
     }
 
     /*Topリンク*/
@@ -253,10 +254,10 @@ PC用スタイル
         position: relative;
     }
     #tl-box>h1{
-        margin-top: 0;
+        margin: 0 auto 10px auto;
         font-size: 30px;
-        font-weight: lighter;
-        margin-bottom: 10px;
+        font-weight: 100;
+        width: fit-content;
     }
     .tl-box{
          margin: 0 5px;
@@ -266,12 +267,12 @@ PC用スタイル
         text-decoration: none;
         color: #000000;
         font-size: 14px;
-        font-weight: lighter;
+        font-weight: 100;
     }
     .tl-box > a:hover{
         color: #000000;
         text-decoration: underline;
-        font-weight: lighter;
+        font-weight: 100;
     }
     .tl-img{
         height : 75px;
@@ -305,8 +306,10 @@ PC用スタイル
     #tn-box > h1{
         margin-top: 0;
         font-size: 30px;
-        font-weight: lighter;
+        font-weight: 100;
         margin-bottom: 10px;
+        width: fit-content;
+
     }
     #tn-contents{
         display: block;
@@ -315,7 +318,7 @@ PC用スタイル
     #tn-contents>a{
         color: #000000;
         font-size: 14px;
-        font-weight: lighter;
+        font-weight: 100;
         text-decoration: none;
     }
     #tn-contents>a:hover{
@@ -334,7 +337,7 @@ PC用スタイル
     #tn-more>a{
         color: #000000;
         font-size: 18px;
-        font-weight: lighter;
+        font-weight: 100;
         text-decoration: none;
     }
     #tn-more>a:hover{
@@ -365,14 +368,14 @@ PC用スタイル
     #tw-box > h1{
         margin-top: 0;
         font-size: 30px;
-        font-weight: lighter;
+        font-weight: 100;
         margin-bottom: 10px;
     }
     .tw-contents-link{
         margin-top: 5px;
         color: #000000;
         font-size: 14px;
-        font-weight: lighter;
+        font-weight: 100;
         text-decoration: none;
         list-style: none;
     }
@@ -391,7 +394,7 @@ PC用スタイル
     #tw-more>a{
         color: #000000;
         font-size: 18px;
-        font-weight: lighter;
+        font-weight: 100;
         text-decoration: none;
     }
     #tw-more>a:hover{
@@ -427,8 +430,8 @@ PC用スタイル
     #tp-box > h1{
         margin-top: 0;
         font-size: 30px;
-        font-weight: lighter;
-        margin-bottom: 15px;
+        font-weight: 100;
+        margin-bottom: 10px;
     }
     #tp-box-img{
         display: none;
@@ -439,25 +442,25 @@ PC用スタイル
     #tp-contents1 > h2{
         margin-top: 0;
         font-size: 20px;
-        font-weight: lighter;
+        font-weight: 100;
         margin-bottom: 5px;
     }
     #tp-contents1 > h2 >span{
         margin: 0 0 0 10px;
         font-size: 14px;
-        font-weight: lighter;
+        font-weight: 100;
         color: #000000;
     }
     #tp-contents1 > h3{
         margin-top: 0;
         font-size: 16px;
-        font-weight: lighter;
+        font-weight: 100;
         margin-bottom: 10px;
     }
     #tp-contents1 > p, #tp-contents2 > p{
         margin-top: 0;
         font-size: 14px;
-        font-weight: lighter;
+        font-weight: 100;
         margin: 0;
     }
     #tp-more{
@@ -468,7 +471,7 @@ PC用スタイル
     #tp-more>a{
         color: #000000;
         font-size: 18px;
-        font-weight: lighter;
+        font-weight: 100;
         text-decoration: none;
     }
     #tp-more>a:hover{
@@ -505,7 +508,7 @@ PC用スタイル
         text-align: center;
         margin-top: 0;
         font-size: 30px;
-        font-weight: lighter;
+        font-weight: 100;
         margin-bottom: auto;
     }
     .tg-slider-box {
@@ -536,7 +539,7 @@ PC用スタイル
     #tg-more>a{
         color: #000000;
         font-size: 18px;
-        font-weight: lighter;
+        font-weight: 100;
         text-decoration: none;
     }
     #tg-more>a:hover{
@@ -565,23 +568,24 @@ PC用スタイル
         padding: 20px;
         background-color: rgba(255, 255, 255, 0.75);
         width: auto;
+        max-width: 375px;
     }
     #tf-box > h1{
         margin-top: 0;
         font-size: 30px;
-        font-weight: lighter;
+        font-weight: 100;
         margin-bottom: 10px;
     }
     #tf-box > h2{
         margin-top: 0;
         font-size: 18px;
-        font-weight: lighter;
+        font-weight: 100;
         margin-bottom: 5px;
     }
     #tf-box > p{
         margin-top: 0;
         font-size: 14px;
-        font-weight: lighter;
+        font-weight: 100;
         margin-bottom: 5px;
     }
     #tf-more{
@@ -592,7 +596,7 @@ PC用スタイル
     #tf-more>a{
         color: #000000;
         font-size: 18px;
-        font-weight: lighter;
+        font-weight: 100;
         text-decoration: none;
     }
     #tf-more>a:hover{
@@ -631,13 +635,13 @@ PC用スタイル
         font-size: 40px;
         color: #000000;
         margin: 0;
-        font-weight:lighter;
+        font-weight:100;
     }
     #nw-title-btn>h2{
         font-size: 20px;
         color: #000000;
         margin: 0;
-        font-weight: lighter;
+        font-weight: 100;
     }
 
     /*メイン*/
@@ -647,7 +651,7 @@ PC用スタイル
     #latest-news>h1, #past-news>h1{
         text-align: center;
         font-size: 24px;
-        font-weight: lighter;
+        font-weight: 100;
         margin:10px 0;
     }
     #latest-news-box{
@@ -676,11 +680,11 @@ PC用スタイル
     #latest-news-days >h3{
         margin: 20px 0 15px 0;
         font-size: 16px;
-        font-weight: lighter;
+        font-weight: 100;
     }
     #latest-news-ct > a{
         font-size: 20px;
-        font-weight: lighter;
+        font-weight: 100;
         text-decoration: none;
         color: #000000;
     }
@@ -707,7 +711,7 @@ PC用スタイル
         display: flex;
         flex-flow: row wrap;
         font-size: 14px;
-        font-weight: lighter;
+        font-weight: 100;
         text-align: left;
     }
     .past-news-list-day{
@@ -752,13 +756,13 @@ PC用スタイル
         font-size: 40px;
         color: #000000;
         margin: 0;
-        font-weight:lighter;
+        font-weight:100;
     }
     #wo-title-btn>h2{
         font-size: 20px;
         color: #000000;
         margin: 0;
-        font-weight: lighter;
+        font-weight: 100;
     }
     /*メイン*/
     #works-art{
@@ -793,8 +797,8 @@ PC用スタイル
         margin: 0 0 0 10px ;
     }
     .works-container-date>p{
-        font-size: 14px;
-        font-weight: lighter;
+        font-size: 12px;
+        font-weight: 100;
         margin: 0;
     }
     .works-container-text{
@@ -802,7 +806,7 @@ PC用スタイル
     }
     .works-container-text>a{
         font-size: 16px;
-        font-weight: lighter;
+        font-weight: 100;
         text-decoration: none;
         margin: 0;
         color: #000000;
@@ -884,13 +888,13 @@ PC用スタイル
         font-size: 40px;
         color: #ffffff;
         margin: 0;
-        font-weight:lighter;
+        font-weight:100;
     }
     #pr-title-btn>h2{
         font-size: 20px;
         color: #ffffff;
         margin: 0;
-        font-weight: lighter;
+        font-weight: 100;
     }
     /*メイン*/
     #profile-art{
@@ -907,19 +911,19 @@ PC用スタイル
     #profile-text-box > h1{
         margin: 0;
         font-size: 24px;
-        font-weight: lighter;
+        font-weight: 100;
         color: #000000;
     }
     #profile-text-box >h1> span{
         margin: 0 0 0 10px;
         font-size: 14px;
-        font-weight: lighter;
+        font-weight: 100;
         color: #000000;
     }
     #profile-text-box > h2{
         margin: 0 0 10px 0;
         font-size: 16px;
-        font-weight: lighter;
+        font-weight: 100;
         color: #000000;
     }
     .pr-text{
@@ -928,7 +932,7 @@ PC用スタイル
     .pr-text > p{
         margin: 0;
         font-size: 14px;
-        font-weight: lighter;
+        font-weight: 100;
         color: #000000;
     }
     #pr-sns-link{
@@ -954,7 +958,7 @@ PC用スタイル
     }
     .activity-record>h1{
         font-size: 24px;
-        font-weight: lighter;
+        font-weight: 100;
         margin: 0 0 10px 0;
     }
     .activity-record-list{
@@ -964,7 +968,7 @@ PC用スタイル
     }
     .activity-record-list > p{
         font-size: 14px;
-        font-weight: lighter;
+        font-weight: 100;
         margin: 0 0 10px 0;
     }
 
@@ -1000,13 +1004,13 @@ PC用スタイル
         font-size: 40px;
         color: #FFAD75;
         margin: 0;
-        font-weight:lighter;
+        font-weight:100;
     }
     #ga-title-btn>h2{
         font-size: 20px;
         color: #FFAD75;
         margin: 0;
-        font-weight: lighter;
+        font-weight: 100;
     }
 
     /*メイン*/
@@ -1023,7 +1027,7 @@ PC用スタイル
     .ga-contents-box > h1{
         color: #000000;
         font-size: 24px;
-        font-weight: lighter;
+        font-weight: 100;
         margin:20px 0 10px 0;
     }
     .ga-photo-box{
@@ -1043,7 +1047,7 @@ PC用スタイル
     #ga-movie-box > h2{
         color: #000000;
         font-size: 16px;
-        font-weight: lighter;
+        font-weight: 100;
         margin:10px 0 5px 0;
     }
     #ga-movie-box >iframe{
@@ -1077,13 +1081,13 @@ PC用スタイル
         font-size: 40px;
         color: #000000;
         margin: 0;
-        font-weight:lighter;
+        font-weight:100;
     }
     #fa-title>a>h2{
         font-size: 20px;
         color: #000000;
         margin: 0;
-        font-weight: lighter;
+        font-weight: 100;
     }
 
     /*メイン*/
@@ -1156,13 +1160,13 @@ PC用スタイル
         font-size: 24px;
         color: #ffffff;
         margin: 0;
-        font-weight: lighter;
+        font-weight: 100;
     }
     .nav-pc-title>h2{
         font-size: 14px;
         color: #ffffff;
         margin: 0;
-        font-weight: lighter;
+        font-weight: 100;
     }
     .nav-pc-link{
         margin: 0 auto;
@@ -1172,7 +1176,7 @@ PC用スタイル
     }
     .nav-pc-link-btn{
         font-size: 24px;
-        font-weight: lighter;
+        font-weight: 100;
         color: #ffffff;
         text-decoration: none;
         margin: 8px 0;
@@ -1192,7 +1196,7 @@ PC用スタイル
         text-decoration: none;
         color: #ffffff;
         font-size: 18px;
-        font-weight: lighter;
+        font-weight: 100;
     }
 
     /*フッター*/
@@ -1203,7 +1207,7 @@ PC用スタイル
     }
     #footer-link{
         font-size: 20px;
-        font-weight: lighter;
+        font-weight: 100;
         margin: auto 0px;
         display: flex;
         flex-flow: column;
@@ -1226,17 +1230,17 @@ PC用スタイル
     }
     #sns-link > span{
         color: #ffffff;
-        font-weight: lighter;
+        font-weight: 100;
         font-size: 20px;
     }
     #sns-share > span{
         color: #ffffff;
-        font-weight: lighter;
+        font-weight: 100;
         font-size: 20px;
     }
     #footer-name{
         font-size: 14px;
-        font-weight: lighter;
+        font-weight: 100;
         color: #ffffff;
     }
     /*サイトマップ*/
@@ -1252,7 +1256,7 @@ PC用スタイル
         text-decoration: none;
         color: #000000;
         font-size: 12px;
-        font-weight: lighter;
+        font-weight: 100;
     }
     /*各ページのタイトル*/
     .page_title{
@@ -1262,7 +1266,7 @@ PC用スタイル
     .page_title > h1{
         color: #000000;
         font-size: 24px;
-        font-weight: lighter;
+        font-weight: 100;
         margin: 0;
     }
     /*SNS*/
@@ -1295,13 +1299,13 @@ PC用スタイル
         font-size: 20px;
         color: #FFAD75;
         margin: 0;
-        font-weight: lighter;
+        font-weight: 100;
     }
     #top-title>h2{
         font-size: 14px;
         color: #FFAD75;
         margin: 0;
-        font-weight: lighter;
+        font-weight: 100;
     }
     /*Topリンク*/
     #top-link{
@@ -1320,12 +1324,12 @@ PC用スタイル
         text-decoration: none;
         color: #000000;
         font-size: 14px;
-        font-weight: lighter;
+        font-weight: 100;
     }
     .tl-box > a:hover{
         color: #FFAD75;
         text-decoration: none;
-        font-weight: lighter;
+        font-weight: 100;
     }
     .tl-img{
         height : 50px;
@@ -1335,7 +1339,7 @@ PC用スタイル
         width: fit-content;
         margin: 0 auto 10px;
         font-size: 30px;
-        font-weight: lighter;
+        font-weight: 100;
     }
     /*TopNewsセクション*/
     #top-news{
@@ -1356,7 +1360,7 @@ PC用スタイル
         width: fit-content;
         margin: 0 auto 10px;
         font-size: 30px;
-        font-weight: lighter;
+        font-weight: 100;
     }
     #tn-contents{
         display: block;
@@ -1365,7 +1369,7 @@ PC用スタイル
     #tn-contents>a{
         color: #000000;
         font-size: 14px;
-        font-weight: lighter;
+        font-weight: 100;
         text-decoration: none;
     }
     #tn-contents>a:hover{
@@ -1384,7 +1388,7 @@ PC用スタイル
     #tn-more>a{
         color: #000000;
         font-size: 18px;
-        font-weight: lighter;
+        font-weight: 100;
         text-decoration: none;
     }
     #tn-more>a:hover{
@@ -1404,7 +1408,7 @@ PC用スタイル
         width: fit-content;
         margin: 0 auto 10px;
         font-size: 30px;
-        font-weight: lighter;
+        font-weight: 100;
     }
     #tw-contents-box{
         width: fit-content;
@@ -1414,7 +1418,7 @@ PC用スタイル
         margin-top: 5px;
         color: #000000;
         font-size: 14px;
-        font-weight: lighter;
+        font-weight: 100;
         text-decoration: none;
         list-style: none;
     }
@@ -1433,7 +1437,7 @@ PC用スタイル
     #tw-more>a{
         color: #000000;
         font-size: 18px;
-        font-weight: lighter;
+        font-weight: 100;
         text-decoration: none;
     }
     #tw-more>a:hover{
@@ -1459,7 +1463,7 @@ PC用スタイル
         width: fit-content;
         margin: 0 auto 10px;
         font-size: 30px;
-        font-weight: lighter;
+        font-weight: 100;
     }
     #tp-box-img{
         width: 250px;
@@ -1475,25 +1479,25 @@ PC用スタイル
     #tp-contents1 > h2{
         margin-top: 0;
         font-size: 20px;
-        font-weight: lighter;
+        font-weight: 100;
         margin-bottom: 5px;
     }
     #tp-contents1 > h2 >span{
         margin: 0 0 0 10px;
         font-size: 14px;
-        font-weight: lighter;
+        font-weight: 100;
         color: #000000;
     }
     #tp-contents1 > h3{
         margin-top: 0;
         font-size: 16px;
-        font-weight: lighter;
+        font-weight: 100;
         margin-bottom: 10px;
     }
     #tp-contents1 > p, #tp-contents2 > p{
         margin-top: 0;
         font-size: 14px;
-        font-weight: lighter;
+        font-weight: 100;
         margin: 0;
     }
     #tp-more{
@@ -1504,7 +1508,7 @@ PC用スタイル
     #tp-more>a{
         color: #000000;
         font-size: 18px;
-        font-weight: lighter;
+        font-weight: 100;
         text-decoration: none;
     }
     #tp-more>a:hover{
@@ -1531,7 +1535,7 @@ PC用スタイル
         width: fit-content;
         margin: 0 auto 10px;
         font-size: 30px;
-        font-weight: lighter;
+        font-weight: 100;
     }
     .tg-slider-box {
         display: none;
@@ -1554,7 +1558,7 @@ PC用スタイル
     #tg-more>a{
         color: #000000;
         font-size: 18px;
-        font-weight: lighter;
+        font-weight: 100;
         text-decoration: none;
     }
     #tg-more>a:hover{
@@ -1575,19 +1579,19 @@ PC用スタイル
         width: fit-content;
         margin: 0 auto 10px;
         font-size: 30px;
-        font-weight: lighter;
+        font-weight: 100;
     }
     #tf-box > h2{
         width: fit-content;
         margin: 0 auto 10px;
         font-size: 18px;
-        font-weight: lighter;
+        font-weight: 100;
     }
     #tf-box > p{
         text-align: left;
         margin-top: 0;
         font-size: 14px;
-        font-weight: lighter;
+        font-weight: 100;
         margin-bottom: 10px;
     }
     #tf-more{
@@ -1598,7 +1602,7 @@ PC用スタイル
     #tf-more>a{
         color: #000000;
         font-size: 18px;
-        font-weight: lighter;
+        font-weight: 100;
         text-decoration: none;
     }
     #tf-more>a:hover{
@@ -1636,13 +1640,13 @@ PC用スタイル
         font-size: 20px;
         color: #000000;
         margin: 0;
-        font-weight:lighter;
+        font-weight:100;
     }
     #nw-title-btn>h2{
         font-size: 14px;
         color: #000000;
         margin: 0;
-        font-weight: lighter;
+        font-weight: 100;
     }
 
     /*メイン*/
@@ -1652,7 +1656,7 @@ PC用スタイル
     #latest-news>h1, #past-news>h1{
         text-align: center;
         font-size: 18px;
-        font-weight: lighter;
+        font-weight: 100;
         margin:10px 0;
     }
     #latest-news-box{
@@ -1679,11 +1683,11 @@ PC用スタイル
     #latest-news-days >h3{
         margin: 0 0 7px;
         font-size: 14px;
-        font-weight: lighter;
+        font-weight: 100;
     }
     #latest-news-ct>a{
         font-size: 16px;
-        font-weight: lighter;
+        font-weight: 100;
         text-decoration: none;
         color: #000000;
     }
@@ -1709,7 +1713,7 @@ PC用スタイル
         display: flex;
         flex-flow: row wrap;
         font-size: 14px;
-        font-weight: lighter;
+        font-weight: 100;
         text-align: left;
     }
     .past-news-list-day{
@@ -1751,13 +1755,13 @@ PC用スタイル
         font-size: 20px;
         color: #000000;
         margin: 0;
-        font-weight:lighter;
+        font-weight:100;
     }
     #wo-title-btn>h2{
         font-size: 14px;
         color: #000000;
         margin: 0;
-        font-weight: lighter;
+        font-weight: 100;
     }
     /*メイン*/
     #works-art{
@@ -1796,13 +1800,13 @@ PC用スタイル
         font-size: 20px;
         color: #ffffff;
         margin: 0;
-        font-weight:lighter;
+        font-weight:100;
     }
     #pr-title-btn>h2{
         font-size: 14px;
         color: #ffffff;
         margin: 0;
-        font-weight: lighter;
+        font-weight: 100;
     }
     /*メイン*/
     #profile-art{
@@ -1820,19 +1824,19 @@ PC用スタイル
     #profile-text-box > h1{
         margin: 0;
         font-size: 24px;
-        font-weight: lighter;
+        font-weight: 100;
         color: #000000;
     }
     #profile-text-box >h1> span{
         margin: 0 0 0 10px;
         font-size: 14px;
-        font-weight: lighter;
+        font-weight: 100;
         color: #000000;
     }
     #profile-text-box > h2{
         margin: 0 0 10px 0;
         font-size: 16px;
-        font-weight: lighter;
+        font-weight: 100;
         color: #000000;
     }
     .pr-text{
@@ -1841,7 +1845,7 @@ PC用スタイル
     .pr-text > p{
         margin: 0;
         font-size: 14px;
-        font-weight: lighter;
+        font-weight: 100;
         color: #000000;
     }
     #pr-sns-link{
@@ -1868,7 +1872,7 @@ PC用スタイル
     }
     .activity-record>h1{
         font-size: 24px;
-        font-weight: lighter;
+        font-weight: 100;
         margin: 0 0 10px 0;
     }
     .activity-record-list{
@@ -1878,7 +1882,7 @@ PC用スタイル
     }
     .activity-record-list > p{
         font-size: 14px;
-        font-weight: lighter;
+        font-weight: 100;
         margin: 0 0 10px 0;
     }
 
@@ -1911,13 +1915,13 @@ PC用スタイル
         font-size: 20px;
         color: #FFAD75;
         margin: 0;
-        font-weight:lighter;
+        font-weight:100;
     }
     #ga-title-btn>h2{
         font-size: 14px;
         color: #FFAD75;
         margin: 0;
-        font-weight: lighter;
+        font-weight: 100;
     }
 
     /*メイン*/
@@ -1933,7 +1937,7 @@ PC用スタイル
     .ga-contents-box > h1{
         color: #000000;
         font-size: 18px;
-        font-weight: lighter;
+        font-weight: 100;
         margin:10px 0;
     }
     .ga-photo-box{
@@ -1952,7 +1956,7 @@ PC用スタイル
     #ga-movie-box > h2{
         color: #000000;
         font-size: 14px;
-        font-weight: lighter;
+        font-weight: 100;
         margin:10px 0 5px 0;
     }
     #ga-movie-box >iframe{
@@ -1988,13 +1992,13 @@ PC用スタイル
         font-size: 20px;
         color: #000000;
         margin: 0;
-        font-weight:lighter;
+        font-weight:100;
     }
     #fa-title>a>h2{
         font-size: 14px;
         color: #000000;
         margin: 0;
-        font-weight: lighter;
+        font-weight: 100;
     }
 
     /*メイン*/
