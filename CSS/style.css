@@ -198,6 +198,7 @@ PC用スタイル
         max-width: 1024px;
         margin: 20px auto ;
     }
+    /*ページタイトル*/
     .page_title{
         width: fit-content;
         margin: 20px auto 20px auto;
@@ -205,6 +206,7 @@ PC用スタイル
     .page_title > h1{
         color: #F39518;
         font-size: 36px;
+        letter-spacing: 10px;
         font-weight: 100;
         margin: 0;
     }
@@ -256,6 +258,7 @@ PC用スタイル
     #tl-box>h1{
         margin: 0 auto 10px auto;
         font-size: 30px;
+        letter-spacing: 5px;
         font-weight: 100;
         width: fit-content;
     }
@@ -306,6 +309,7 @@ PC用スタイル
     #tn-box > h1{
         margin-top: 0;
         font-size: 30px;
+        letter-spacing: 5px;
         font-weight: 100;
         margin-bottom: 10px;
         width: fit-content;
@@ -368,6 +372,7 @@ PC用スタイル
     #tw-box > h1{
         margin-top: 0;
         font-size: 30px;
+        letter-spacing: 5px;
         font-weight: 100;
         margin-bottom: 10px;
     }
@@ -430,6 +435,7 @@ PC用スタイル
     #tp-box > h1{
         margin-top: 0;
         font-size: 30px;
+        letter-spacing: 5px;
         font-weight: 100;
         margin-bottom: 10px;
     }
@@ -508,6 +514,7 @@ PC用スタイル
         text-align: center;
         margin-top: 0;
         font-size: 30px;
+        letter-spacing: 5px;
         font-weight: 100;
         margin-bottom: auto;
     }
@@ -534,7 +541,7 @@ PC用スタイル
     #tg-more{
         text-align: right;
         margin-top: auto;
-        margin-right: 20px;
+        margin-right: 70px;
     }
     #tg-more>a{
         color: #000000;
@@ -573,6 +580,7 @@ PC用スタイル
     #tf-box > h1{
         margin-top: 0;
         font-size: 30px;
+        letter-spacing: 5px;
         font-weight: 100;
         margin-bottom: 10px;
     }
@@ -1273,6 +1281,7 @@ PC用スタイル
     .page_title > h1{
         color: #F39518;
         font-size: 26px;
+        letter-spacing: 10px;
         font-weight: 150;
         margin: 0;
     }
@@ -1332,6 +1341,7 @@ PC用スタイル
         margin: 0 auto 10px;
         font-size: 30px;
         font-weight: 100;
+        letter-spacing: 10px;
         color: #F39518;
     }
     .tl-box>a{
@@ -1375,6 +1385,7 @@ PC用スタイル
         margin: 0 auto 10px;
         font-size: 30px;
         font-weight: 100;
+        letter-spacing: 10px;
         color: #F39518;
     }
     #tn-contents{
@@ -1424,6 +1435,7 @@ PC用スタイル
         margin: 0 auto 10px;
         font-size: 30px;
         font-weight: 100;
+        letter-spacing: 10px;
         color: #F39518;
     }
     #tw-contents-box{
@@ -1480,6 +1492,7 @@ PC用スタイル
         margin: 0 auto 10px;
         font-size: 30px;
         font-weight: 100;
+        letter-spacing: 10px;
         color: #F39518;
     }
     #tp-box-img{
@@ -1553,6 +1566,7 @@ PC用スタイル
         margin: 0 auto 10px;
         font-size: 30px;
         font-weight: 100;
+        letter-spacing: 10px;
         color: #F39518;
     }
     .tg-slider-box {
@@ -1598,6 +1612,7 @@ PC用スタイル
         margin: 0 auto 10px;
         font-size: 30px;
         font-weight: 100;
+        letter-spacing: 10px;
         color: #F39518;
     }
     #tf-box > h2{
