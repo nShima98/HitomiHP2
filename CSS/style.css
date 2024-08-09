@@ -740,6 +740,7 @@ PC用スタイル
         margin: 20px auto 20px auto;
         max-width: 1024px;
     }
+    /*ニュースのタイトル・日付*/
     .news_page_title > h1{
         color: #F39518;
         font-size: 24px;
@@ -748,13 +749,13 @@ PC用スタイル
         letter-spacing: 3px;
         text-align: center;
     }
-
     .news-date{
         font-size: 12px;
         font-weight: 100;
         text-align: right;
         margin: 0;
     }
+    /*ニュースの内容*/
     .news-contents-box{
         max-width: 1024px;
         margin: 20px auto ;
@@ -786,7 +787,7 @@ PC用スタイル
         height: auto;
         margin: 0 auto;
     }
-
+    /*次のニュース・前のニュース*/
     .news-btn-box{
         width: 100%;
         height: 40px;
@@ -1884,6 +1885,89 @@ PC用スタイル
     .past-news-list-link > a:hover{
         color: #F39518;
     }
+    /*ニュースのタイトル・日付*/
+    .news_page_title{
+        margin-top: 10px;
+    }
+    .news_page_title > h1{
+        color: #F39518;
+        font-size: 18px;
+        font-weight: 150;
+        margin: 0;
+        letter-spacing: 3px;
+        text-align: center;
+    }
+    .news-date{
+        font-size: 12px;
+        font-weight: 100;
+        text-align: right;
+        margin: 0;
+    }
+    /*ニュースの内容*/
+    .news-contents-box{
+        margin: 10px auto 20px;
+    }
+    .news-contents-box >h2{
+        font-size: 18px;
+        font-weight: 100;
+        margin-bottom: 5px;  
+        margin-top: 0 
+    }
+    .news-contents-box>p{
+        font-size: 14px;
+        font-weight: 100;
+        margin-bottom: 15px;
+        margin-top: 0;
+    }
+    .news-contents-box>p>a{
+        color: #F39518;
+        font-size: 14px;
+        font-weight: 100;
+        margin-bottom: 5px;
+        text-decoration: none;
+    }
+    .news-contents-box>p>a:hover{
+        text-decoration: underline;
+    }
+    .news-contents-box > p > img{
+        max-width: 100%;
+        height: auto;
+        margin: 0 auto;
+    }
+
+    /*次のニュース・前のニュース*/
+    .news-btn-box{
+        width: 100%;
+        height: 40px;
+        margin: 30px auto 0;
+        position: relative;
+    }
+    .news-btn-left,.news-btn-right{
+        background-color: #F39518;
+        padding: 4px 10px 7px;
+        border-radius: 5px;
+        width: fit-content;
+    }
+    .news-btn-left>a,.news-btn-right>a{
+        font-size: 14px;
+        font-weight: 100;
+        text-decoration: none;
+        color: #ffffff;
+    }
+    .news-btn-left>a:hover,.news-btn-right>a:hover{
+        opacity: .7;
+    }
+    .news-btn-left{
+        position: absolute;
+        left: 0;
+        top: 0;
+    }
+    .news-btn-right{
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
  
     /*-----Worksページ-----*/
     /*ヘッダー*/
@@ -1929,6 +2013,45 @@ PC用スタイル
     .works-box{
         display: none;
     }
+
+    /*News・Works個別ページSNSシェア*/
+    .page-share{
+        margin: 20px auto;
+        text-align: center;
+    }
+    .page-share>h1{
+        color: #F39518;
+        font-size: 12xp;
+        font-weight: 100;
+        margin: 0 0 5px;
+    }
+    .page-share-btn-box{
+        display: flex;
+        margin: 0 auto;
+        width: fit-content;
+    }
+    .page-share-btn{
+        position: relative;
+        background-color: #F39518;
+        height: 40px;
+        width: 40px;
+        border-radius: 50%;
+        margin: 0 10px;
+        text-align: center;
+    }
+    .page-share-sns-logo{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 20px;
+        height: auto;
+        padding: 10px;
+    }
+    .page-share-sns-logo:hover{
+        opacity: .7;
+    }
+
 
     /*-----Profileページ-----*/
     /*ヘッダー*/
