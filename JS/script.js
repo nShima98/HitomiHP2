@@ -149,6 +149,31 @@ window.addEventListener('DOMContentLoaded', () => {
     });
 })
 
-//Top gallery設定//
 
+
+//------シェアボタン(News・Works個別ページ)------//
+const share_url = location.href;
+const share_hostpath = location.host + location.pathname;
+const share_title = document.title;
+
+// facebook
+const share_facebook = document.getElementById("page-share-facebook");
+share_facebook.setAttribute(
+	"href",
+	"http://www.facebook.com/share.php?u=" + share_url
+);
+
+// X
+const share_X = document.getElementById("page-share-X");
+share_X.setAttribute(
+	"href",
+	"https://x.com/share?url=" + share_url + "&text=" + share_title
+);
+
+// line
+const share_line = document.getElementById("page-share-line");
+share_line.setAttribute(
+	"href",
+	"https://social-plugins.line.me/lineit/share?url=" + share_url
+);
 
