@@ -782,10 +782,11 @@ PC用スタイル
     .news-contents-box>p>a:hover{
         text-decoration: underline;
     }
-    .news-contents-box > p > img{
+    .news-contents-box > img{
         max-width: 100%;
-        height: auto;
-        margin: 0 auto;
+        max-height: 580px;
+        margin: 0 auto 15px ;
+        display: block;
     }
     .news-cm{
         width: 100%;
@@ -1945,7 +1946,7 @@ PC用スタイル
     .news-contents-box>p>a:hover{
         text-decoration: underline;
     }
-    .news-contents-box > p > img{
+    .news-contents-box > img{
         max-width: 100%;
         height: auto;
         margin: 0 auto;
