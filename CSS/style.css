@@ -1840,7 +1840,6 @@ PC用スタイル
         display: flex;
         flex-flow: column;
         position: relative;
-        border: #F39518 1px solid;
         margin-bottom: 20px;
     }
     #latest-news-img-box{
@@ -1849,7 +1848,7 @@ PC用スタイル
         margin: auto 0;
     }
     #latest-news-text-box{
-        padding:15px;
+        margin-left: 5px;
     }
     #latest-news-img{
         width: 100%;
@@ -1857,12 +1856,12 @@ PC用スタイル
         margin: auto 0;
     }
     #latest-news-days >h3{
-        margin: 0 0 7px;
-        font-size: 14px;
+        margin: 0 0 3px;
+        font-size: 12px;
         font-weight: 100;
     }
     #latest-news-ct>a{
-        font-size: 16px;
+        font-size: 14px;
         font-weight: 100;
         text-decoration: none;
         color: #000000;
