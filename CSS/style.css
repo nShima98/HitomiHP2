@@ -1982,7 +1982,6 @@ PC用スタイル
     .news-btn-left,.news-btn-right{
         background-color: #F39518;
         padding: 4px 10px 7px;
-        border-radius: 5px;
         width: fit-content;
     }
     .news-btn-left>a,.news-btn-right>a{
@@ -1996,12 +1995,12 @@ PC用スタイル
     }
     .news-btn-left{
         position: absolute;
-        left: 0;
+        left: -30px;
         top: 0;
     }
     .news-btn-right{
         position: absolute;
-        right: 0;
+        right: -30px;
         top: 0;
     }
 
