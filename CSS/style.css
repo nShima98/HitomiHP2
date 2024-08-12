@@ -301,10 +301,13 @@ PC用スタイル
         top:50%;
         right: 50px;
         transform: translate(0%, -50%);
-        padding: 20px;
         background-color: rgba(255, 255, 255, 0.75);
         width: auto;
         max-width: 375px;
+        height: calc(100% - 100px);
+        padding: 20px;
+        display: flex;
+        flex-flow: column;
     }
     #tn-box > h1{
         margin-top: 0;
@@ -313,7 +316,10 @@ PC用スタイル
         font-weight: 100;
         margin-bottom: 10px;
         width: fit-content;
-
+    }
+    .tn-scroll{
+        overflow-y: scroll;
+        margin-bottom: 10px;
     }
     #tn-contents{
         display: block;
@@ -328,15 +334,19 @@ PC用スタイル
     #tn-contents>a:hover{
         text-decoration: underline;
     }
+    .tn-date{
+        font-size: 14px;
+        font-weight: 100;
+        margin: 0;
+    }
     #tn-boximg{
-        margin: 10px auto 0;
-        width: 300px;
+        margin: 0 auto 10px;
+        width: 100%;
         height: auto;
     }
     #tn-more{
         text-align: right;
         margin-top: auto;
-        margin-top: 10px;
     }
     #tn-more>a{
         color: #000000;
@@ -1557,8 +1567,13 @@ PC用スタイル
     #tn-contents>a:hover{
         color: #F39518;
     }
+    .tn-date{
+        font-size: 12px;
+        font-weight: 100;
+        margin: 0;
+    }
     #tn-boximg{
-        margin-top: 10px;
+        margin-bottom: 10px;
         width: 100%;
         height: auto;
     }
@@ -1884,6 +1899,9 @@ PC用スタイル
         font-weight: 100;
         text-decoration: none;
         color: #000000;
+    }
+    #latest-news-ct > a:hover{
+        color: #F39518;
     }
     #latest-news-viewmore{
         display: none;
