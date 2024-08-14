@@ -304,7 +304,7 @@ PC用スタイル
         background-color: rgba(255, 255, 255, 0.75);
         width: auto;
         max-width: 375px;
-        height: calc(100% - 120px);
+        max-height: calc(100% - 120px);
         padding: 20px;
         display: flex;
         flex-flow: column;
@@ -320,6 +320,7 @@ PC用スタイル
     .tn-scroll{
         overflow-y: scroll;
         margin-bottom: 10px;
+        scrollbar-color: #F39518 rgba(1, 0, 0, 0);
     }
     #tn-contents{
         display: block;
@@ -379,13 +380,13 @@ PC用スタイル
         background-color: rgba(255, 255, 255, 0.75);
         max-width: 375px;
         max-height: calc(100% - 120px);
-        overflow-y: scroll;
         display: flex;
         flex-flow: column;
     }
     #tw-contents-box{
         overflow-y: scroll;
         margin-bottom: 10px;
+        scrollbar-color: #F39518 rgba(255, 255, 255, 0);
     }
     #tw-box > h1{
         margin-top: 0;
@@ -468,6 +469,7 @@ PC用スタイル
     #tp-contents1{
         margin-bottom: 15px;
         overflow-y: scroll;
+        scrollbar-color: #F39518 rgba(255, 255, 255, 0);
     }
     #tp-contents1 > h2{
         margin-top: 0;
@@ -683,9 +685,7 @@ PC用スタイル
         font-weight: 100;
         margin:10px 0;
     }
-    .latest-news-slider{
-        
-    }
+
     #latest-news-box{
         width: fit-content;
         max-width: 50%;
