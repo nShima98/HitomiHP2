@@ -28,15 +28,10 @@ $(function(){
         $(this).attr('href','http://x.com/share?text='+ snsTitle + '&url='+ snsUrl);
         break;
 
-        //URLをクリップボードに貼り付け
-        case 'page-share-copy':
-        $(this).attr('href','http://x.com/share?text='+ snsTitle + '&url='+ snsUrl);
-        break;
       }
-     
       });
     });
-    
+
     function copyUrl() {
         var url = location.href;
         navigator.clipboard.writeText(url);
