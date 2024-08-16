@@ -1,7 +1,7 @@
 $(function(){
  
     var href =location.href; //1.URLを取得しエンコードする
-    var getTitle = $('.news_title').html(); //2.ページのタイトルを取得
+    var getTitle = $('.works_title').html(); //2.ページのタイトルを取得
      
     //3.URLを取得しエンコードする
     var snsUrl = encodeURIComponent(href);
@@ -27,7 +27,6 @@ $(function(){
         case 'page-share-X':
         $(this).attr('href','http://x.com/share?text='+ snsTitle + '&url='+ snsUrl);
         break;
-
       }
       });
     });
