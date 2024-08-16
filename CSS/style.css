@@ -973,46 +973,6 @@ PC用スタイル
         text-decoration: underline;
     }
 
-    .works-next.disable,.works-prev.disable {
-        pointer-events: none;
-        background: #ddd;
-    }
-    .works-pagination {
-        display: flex;
-        justify-content: center;
-        margin-top: 20px;
-    }
-
-    .works-pagination p {
-        border: 1px solid #ddd;
-        padding: 5px 10px;
-        margin: 0 5px;
-        background: #F39518;
-        color: #fff
-    }
-    .works-next:hover, .works-prev:hover, .works-page-counter li:hover {
-        cursor: pointer;
-    }
-    .works-page-counter {
-        display: flex;
-        list-style: none;
-        padding-left: 0;
-        margin: 0 10px;
-    }
-
-    .works-page1counter li {
-        border: 1px solid #F39518;
-        padding: 5px 10px;
-    }
-
-    .works-page1counter li.current {
-        background: #F39518;
-        color: #fff;
-    }
-
-    .works-page-counter li + li {
-        margin-left: 5px;
-    }
 
     /*-----Works個別ページメイン-----*/
     .works_page_title {
@@ -1407,7 +1367,7 @@ PC用スタイル
     }
 }
 
-
+/*--------------------------------------------------*/
 /*--------------------------------------------------*/
 /*スマホ用レイアウト*/
 @media screen and (Max-width: 767px){
