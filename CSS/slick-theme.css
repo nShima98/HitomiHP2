@@ -68,11 +68,11 @@
     .slick-next:before
     {
         font-family: 'slick';
-        font-size: 25px;
+        font-size: 30px;    /*矢印の大きさ*/
         line-height: 1;
 
         opacity: 1;
-        color: #FFAD75;
+        color: #FFAD75;     /*矢印の色*/
 
         -webkit-font-smoothing: antialiased;
         -moz-osx-font-smoothing: grayscale;
@@ -224,7 +224,7 @@
         src: url('./fonts/slick.eot');
         src: url('./fonts/slick.eot?#iefix') format('embedded-opentype'), url('./fonts/slick.woff') format('woff'), url('./fonts/slick.ttf') format('truetype'), url('./fonts/slick.svg#slick') format('svg');
     }
-    /* Arrows */
+    /* 矢印 */
     .slick-prev,
     .slick-next
     {
@@ -276,11 +276,11 @@
     .slick-next:before
     {
         font-family: 'slick';
-        font-size: 20px;
+        font-size: 20px;    /*矢印の大きさ*/
         line-height: 1;
 
         opacity: 1;
-        color: #FFAD75;
+        color: #FFAD75;    /*矢印の色*/
 
         -webkit-font-smoothing: antialiased;
         -moz-osx-font-smoothing: grayscale;
@@ -324,7 +324,7 @@
         content: '←';
     }
 
-    /* Dots */
+    /* 点々 */
     .slick-dotted.slick-slider
     {
         margin-bottom: 30px;
