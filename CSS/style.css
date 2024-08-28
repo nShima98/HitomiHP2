@@ -174,7 +174,7 @@ PC用スタイル
         font-weight: 100;
         color: #ffffff;
     }
-
+    /*サイトマップ*/
     .site-map{
         position: relative;
         margin: 0;
@@ -193,6 +193,7 @@ PC用スタイル
     .site-map >p>a:hover{
         text-decoration: underline;
     }
+
     .contents-box{
         position: relative;
         max-width: 1024px;
@@ -1283,7 +1284,25 @@ PC用スタイル
         margin: 0;
         font-weight: 150;
     }
-
+    /*サイトマップga*/
+    .site-map-ga{
+        position: relative;
+        margin: 0;
+    }
+    .site-map-ga >p{
+        margin-top: 10px;
+        margin-bottom: 0;
+    }
+    .site-map-ga >p,.site-map-ga >p> a{
+        padding: 0, 0, 0, 50px;
+        text-decoration: none;
+        color: #000000;
+        font-size: 14px;
+        font-weight: 100;
+    }
+    .site-map-ga >p>a:hover{
+        text-decoration: underline;
+    }
     /*メイン*/
     #gallery-art{
         margin: 0 50px 50px 50px;
@@ -1306,9 +1325,9 @@ PC用スタイル
         width: fit-content;
     }
     .ga-photo-box img{
-        width: 300px;
-        height: 300px;
-        margin: 5px;
+        width: 32%;
+        height: 32%;
+        margin: 0px;
         object-fit: cover;
     }
     .ga-photo-box a{
@@ -2531,13 +2550,13 @@ PC用スタイル
 
     /*メイン*/
     #gallery-art{
-        margin: 0 30px 30px ;
+        margin: 0 0 30px ;
     }
     .ga-contents-box{
         position: relative;
         text-align: center;
         width: 100%;
-        margin: 0 auto 20px auto;
+        margin: 0 0 20px 0;
     }
     .ga-contents-box > h1{
         color: #000000;
@@ -2550,7 +2569,8 @@ PC用スタイル
         width: fit-content;
     }
     .ga-photo-box img{
-        width: 45%;
+        width: 32.5%;
+        margin: 0;
         height: auto;
         object-fit: cover;
     }
@@ -2558,6 +2578,9 @@ PC用スタイル
         color: #ffffff;
     }
 
+    #ga-movie-box{
+        margin: 0 20px;
+    }
     #ga-movie-box > h2{
         color: #000000;
         font-size: 14px;
@@ -2570,6 +2593,24 @@ PC用スタイル
         height: auto;
         object-fit: cover;
         margin: 0 auto;
+    }
+    /*サイトマップ*/
+    .site-map-ga{
+        position: relative;
+        margin: 0 0 0 30px;
+    }
+    .site-map-ga >p{
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .site-map-ga >p,.site-map-ga >p> a{
+        text-decoration: none;
+        color: #000000;
+        font-size: 12px;
+        font-weight: 100;
+    }
+    .site-map-ga >p>a:hover{
+        color: #F39518;
     }
 
     /*-----Funclubページ-----*/
