@@ -2569,7 +2569,7 @@ PC用スタイル
         width: fit-content;
     }
     .ga-photo-box img{
-        width: 32.5%;
+        width: 32%;
         margin: 0;
         height: auto;
         object-fit: cover;
