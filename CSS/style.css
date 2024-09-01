@@ -321,19 +321,19 @@ PC用スタイル
     .tn-scroll{
         overflow-y: scroll;
         margin-bottom: 10px;
-        scrollbar-color: #F39518 rgba(1, 0, 0, 0);
+        scrollbar-color: #F39518 rgba(0, 0, 0, 0);
     }
-    #tn-contents{
+    .tn-contents{
         display: block;
         margin-bottom: auto;
     }
-    #tn-contents>a{
+    .tn-contents>a{
         color: #000000;
         font-size: 14px;
         font-weight: 100;
         text-decoration: none;
     }
-    #tn-contents>a:hover{
+    .tn-contents>a:hover{
         text-decoration: underline;
     }
     .tn-date{
@@ -341,8 +341,8 @@ PC用スタイル
         font-weight: 100;
         margin: 0;
     }
-    #tn-boximg{
-        margin: 0 auto 10px;
+    .tn-boximg{
+        margin: 5px auto 10px;
         width: 100%;
         height: auto;
     }
@@ -384,33 +384,42 @@ PC用スタイル
         display: flex;
         flex-flow: column;
     }
-    #tw-contents-box{
-        overflow-y: scroll;
-        margin-bottom: 10px;
-        scrollbar-color: #F39518 rgba(255, 255, 255, 0);
-    }
     #tw-box > h1{
         margin-top: 0;
         font-size: 30px;
         letter-spacing: 5px;
         font-weight: 100;
         margin-bottom: 10px;
+    }    
+    #tw-scroll{
+        overflow-y: scroll;
+        margin-bottom: 10px;
+        scrollbar-color: #F39518 rgba(255, 255, 255, 0);
     }
-    .tw-contents-link{
-        margin-top: 5px;
+    .tw-contents{
+        display: block;
+        margin-bottom: auto;
+    }
+    .tw-contents>a{
         color: #000000;
         font-size: 14px;
         font-weight: 100;
         text-decoration: none;
-        list-style: none;
     }
-    .tw-contents-link>a{
-        color: #000000;
-        text-decoration: none;
-    }
-    .tw-contents-link:hover{
+    .tw-contents>a:hover{
         text-decoration: underline;
     }
+    .tw-boximg{
+        margin: 5px auto 10px;
+        width: 100%;
+        height: auto;
+    }
+    .tw-date{
+        font-size: 14px;
+        font-weight: 100;
+        margin: 0;
+    }
+
     #tw-more{
         text-align: right;
         margin-top: auto;
@@ -1667,17 +1676,13 @@ PC用スタイル
         letter-spacing: 10px;
         color: #F39518;
     }
-    #tn-contents{
-        display: block;
-        margin-bottom: auto;
-    }
-    #tn-contents>a{
+    .tn-contents>a{
         color: #000000;
         font-size: 14px;
         font-weight: 100;
         text-decoration: none;
     }
-    #tn-contents>a:hover{
+    .tn-contents>a:hover{
         color: #F39518;
     }
     .tn-date{
@@ -1685,7 +1690,8 @@ PC用スタイル
         font-weight: 100;
         margin: 0;
     }
-    #tn-boximg{
+    .tn-boximg{
+        margin-top: 3px;
         margin-bottom: 10px;
         width: 100%;
         height: auto;
@@ -1722,9 +1728,29 @@ PC用スタイル
         letter-spacing: 10px;
         color: #F39518;
     }
-    #tw-contents-box{
+    #tw-scroll{
         width: fit-content;
         margin: 0 auto;
+    }
+    .tw-contents>a{
+        color: #000000;
+        font-size: 14px;
+        font-weight: 100;
+        text-decoration: none;
+    }
+    .tw-contents>a:hover{
+        color: #F39518;
+    }
+    .tw-date{
+        font-size: 12px;
+        font-weight: 100;
+        margin: 0;
+    }
+    .tw-boximg{
+        margin-top: 3px;
+        margin-bottom: 10px;
+        width: 100%;
+        height: auto;
     }
     .tw-contents-link{
         margin-top: 5px;
