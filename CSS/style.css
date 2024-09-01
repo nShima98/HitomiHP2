@@ -475,6 +475,7 @@ PC用スタイル
         border-radius: 50%;
         margin: 0 auto 10px;
         display: block;
+        pointer-events: none;
     }
     #tp-contents1{
         margin-bottom: 15px;
@@ -1226,6 +1227,7 @@ PC用スタイル
         justify-content: center;
         align-items: center;
         margin: 0 auto 0 50px;
+        pointer-events: none;
     }
     #profile-fp{
         border-radius: 50%;
