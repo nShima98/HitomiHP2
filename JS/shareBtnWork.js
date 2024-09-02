@@ -25,7 +25,7 @@ $(function(){
         break;
         //X
         case 'page-share-X':
-        $(this).attr('href','http://twitter.com/share?text='+ snsTitle + '&url='+ snsUrl);
+        $(this).attr('href','https://twitter.com/intent/tweet?text='+ snsTitle + '&url='+ snsUrl);
         break;
       }
       });
