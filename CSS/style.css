@@ -336,11 +336,6 @@ PC用スタイル
     .tn-contents>a:hover{
         text-decoration: underline;
     }
-    .tn-date{
-        font-size: 14px;
-        font-weight: 100;
-        margin: 0;
-    }
     .tn-boximg{
         margin: 5px auto 10px;
         width: 100%;
@@ -414,12 +409,6 @@ PC用スタイル
         width: 100%;
         height: auto;
     }
-    .tw-date{
-        font-size: 14px;
-        font-weight: 100;
-        margin: 0;
-    }
-
     #tw-more{
         text-align: right;
         margin-top: auto;
@@ -696,26 +685,26 @@ PC用スタイル
         font-weight: 100;
         margin:10px 0;
     }
-
-    #latest-news-box{
-        width: fit-content;
-        max-width: 50%;
-        height: fit-content;
+    .latest-news-list{
+        width: 100%;
         display: flex;
-        flex-flow: column;
-        position: relative;
-        margin: 0 auto 20px;
-        justify-content: center;
+        flex-wrap: wrap;
+        max-width: 1024px;
+        margin: 20px auto;
+        padding: 0;
+        list-style: none;
+    }
+    #latest-news-box{
+        margin: 0;
+        width: 33.3333%;
+        padding: 0 15px 0;
+        box-sizing: border-box;
     }
     #latest-news-img-box{
         width: 100%;
-        height: 100%;
-        margin: 0 auto 0;
-    }
-    #latest-news-text-box{
-        padding: 10px 20px 20px 20px;
-        width: fit-content;
-        background-color: #F39518;
+        height: fit-content;
+        aspect-ratio: 297 / 210;
+        margin-bottom: 5px;
     }
     #latest-news-img{
         height: auto;
@@ -725,13 +714,16 @@ PC用スタイル
         aspect-ratio: 297 / 210;
         object-fit: cover;
     }
-    #latest-news-days >h3{
-        margin: 0 0 5px 0;
-        font-size: 14px;
+    #latest-news-date{
+        margin-left: 10px;
+    }
+    #latest-news-date >p{
+        margin: 0;
+        font-size: 12px;
         font-weight: 100;
     }
     #latest-news-ct{
-        margin: auto 0;
+        margin-left: 10px;
     }
     #latest-news-ct > a{
         font-size: 16px;
@@ -1687,11 +1679,6 @@ PC用スタイル
     .tn-contents>a:hover{
         color: #F39518;
     }
-    .tn-date{
-        font-size: 12px;
-        font-weight: 100;
-        margin: 0;
-    }
     .tn-boximg{
         margin-top: 3px;
         margin-bottom: 10px;
@@ -1742,11 +1729,6 @@ PC用スタイル
     }
     .tw-contents>a:hover{
         color: #F39518;
-    }
-    .tw-date{
-        font-size: 12px;
-        font-weight: 100;
-        margin: 0;
     }
     .tw-boximg{
         margin-top: 3px;
@@ -2011,12 +1993,15 @@ PC用スタイル
         font-weight: 100;
         margin:10px 0;
     }
+    .latest-news-list{
+        padding: 0;
+    }
     #latest-news-box{
         width: 100%;
         display: flex;
         flex-flow: column;
         position: relative;
-        margin-bottom: 20px;
+        margin-bottom: 30px;
     }
     #latest-news-img-box{
         width: 100%;
@@ -2031,10 +2016,16 @@ PC用スタイル
         height: auto;
         margin: auto 0;
     }
-    #latest-news-days >h3{
-        margin: 0 0 3px;
+    #latest-news-date{
+        margin-left: 10px;
+    }
+    #latest-news-date >p{
+        margin: 0;
         font-size: 12px;
         font-weight: 100;
+    }
+    #latest-news-ct{
+        margin-left: 10px;
     }
     #latest-news-ct>a{
         font-size: 14px;
@@ -2273,7 +2264,7 @@ PC用スタイル
         color: #000000;
     }
     .works-container-text>a:hover{
-        text-decoration: underline;
+        color: #F39518;
     }
 
     /*ニュースのタイトル・日付*/
