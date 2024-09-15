@@ -1132,6 +1132,45 @@ PC用スタイル
         opacity: .7;
     }
 
+    /*News・Worksページネーション*/
+    .pagination {
+        list-style: none;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .pagination li {
+        margin-right: 1em;
+    }
+    
+    .pagination li a {
+        text-decoration: none;
+        color: #F39518;
+    }
+    
+    .page {
+        width: 25px;
+        height: 25px;
+        padding: 5px;
+        border: 1px solid #F39518;
+        border-radius: 50%;
+        text-align: center;
+    }
+    
+    .navi-active {
+        background-color: #F39518;
+    }
+    
+    .pagination .navi-active a {
+        color: #fff;
+    }
+
+    .pagination li a:hover {
+        opacity: .7;
+    }
+    
     /*-----Profileページ-----*/
     /*ヘッダー*/
     #pr-box{
@@ -2412,6 +2451,46 @@ PC用スタイル
     }
     .page-share-sns-logo:hover{
         opacity: .7;
+    }
+
+    /*News・Worksページネーション*/
+    .pagination {
+        list-style: none;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+    }
+    
+    .pagination li {
+        margin: 0 5px;
+    }
+    
+    .pagination li a {
+        text-decoration: none;
+        color: #F39518;
+    }
+
+    .pagination li a:hover {
+        opacity: .7;
+    }
+    
+    .page {
+        width: 25px;
+        height: 25px;
+        padding: 5px;
+        border: 1px solid #F39518;
+        border-radius: 50%;
+        text-align: center;
+    }
+    
+    .navi-active {
+        background-color: #F39518;
+    }
+    
+    .pagination .navi-active a {
+        color: #fff;
     }
 
 
