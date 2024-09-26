@@ -235,7 +235,7 @@ PC用スタイル
     #top-title{
         position: absolute;
         top:65%;
-        left: 100px;
+        left: 8vw;
         transform: translate(0%, -50%);
     }
     #top-title>h1{
@@ -287,6 +287,18 @@ PC用スタイル
         width : auto;
     }
 
+    /*フェードイン(初期値)*/
+    .js-fadeUp {
+        opacity: 0; /* 最初は非表示 */
+        transform: translateY(15%); /* 下に30pxの位置から */
+        transition: opacity .8s, transform .8s; /* 透過率と縦方向の移動を0.5秒 */
+    }
+    /* フェードイン(スクロールした後) */
+    .js-fadeUp.is-inview {
+        opacity: 1; /* 表示領域に入ったら表示 */
+        transform: translateY(0); /* 30px上に移動する */
+        transition-delay: .5s; /* フェード開始を0.5秒遅らせる */
+    }
     /*TopNewsセクション*/
     #top-news{
         margin: 3vw;
@@ -661,7 +673,7 @@ PC用スタイル
     #nw-title{
         position: absolute;
         top:50%;
-        right: 100px;
+        right: 8vw;
         transform: translate(0%, -50%);
     }
     #nw-title-btn{
@@ -912,7 +924,7 @@ PC用スタイル
     #wo-title{
         position: absolute;
         top:60%;
-        left: 100px;
+        left: 8vw;
         transform: translate(0%, -50%);
     }
     #wo-title-btn{
@@ -1196,7 +1208,7 @@ PC用スタイル
     #pr-title{
         position: absolute;
         top:50%;
-        right: 100px;
+        right: 8vw;
         transform: translate(0%, -50%);
     }
     #pr-title-btn{
@@ -1313,7 +1325,7 @@ PC用スタイル
     #ga-title{
         position: absolute;
         top:60%;
-        left: 100px;
+        left: 8vw;
         transform: translate(0%, -50%);
     }
     #ga-title-btn{
@@ -1416,7 +1428,7 @@ PC用スタイル
     #fa-title{
         position: absolute;
         top:60%;
-        left: 100px;
+        left: 8vw;
         transform: translate(0%, -50%);
     }
     #fa-title>a{
