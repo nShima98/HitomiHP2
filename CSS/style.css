@@ -290,14 +290,14 @@ PC用スタイル
     /*フェードイン(初期値)*/
     .js-fadeUp {
         opacity: 0; /* 最初は非表示 */
-        transform: translateY(15%); /* 下に30pxの位置から */
-        transition: opacity .8s, transform .8s; /* 透過率と縦方向の移動を0.5秒 */
+        transform: translateY(10%); /* 下に30pxの位置から */
+        transition: opacity .6s, transform .6s; /* 透過率と縦方向の移動を0.5秒 */
     }
     /* フェードイン(スクロールした後) */
     .js-fadeUp.is-inview {
         opacity: 1; /* 表示領域に入ったら表示 */
         transform: translateY(0); /* 30px上に移動する */
-        transition-delay: .5s; /* フェード開始を0.5秒遅らせる */
+        transition-delay: .6s; /* フェード開始を0.5秒遅らせる */
     }
     /*TopNewsセクション*/
     #top-news{
