@@ -203,7 +203,7 @@
     .slick-dots li.slick-active button:before
     {
         opacity: 1;
-        color: #F39518;
+        color: #000000;
     }
 }
 

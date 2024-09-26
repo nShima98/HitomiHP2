@@ -41,8 +41,8 @@ PC用スタイル
     /*ナビゲーションのリンクの装飾設定*(ヘッダー)*/
     .hbg-btn-open{
         position: absolute;
-        top: 75px;
-        left: 75px;
+        top: 4.5vw;
+        left: 4.5vw;
     }
     .hbg-btn-open:hover{
         opacity: 0.8;
@@ -61,7 +61,7 @@ PC用スタイル
         background-color: #F39518;
         text-align: center;
         outline: #ffffff solid 3px;
-        outline-offset: -50px;
+        outline-offset: -3vw;
         opacity: 0;
         pointer-events: none;
     }
@@ -71,8 +71,8 @@ PC用スタイル
     }
     .hbg-btn-close{
         position: absolute;
-        top: 75px;
-        left: 75px;        
+        top: 4.5vw;
+        left: 4.5vw;
     }
     .hbg-btn-close > img{
         width: 50px;
@@ -91,7 +91,7 @@ PC用スタイル
         justify-content: space-between;
     }
     .nav-pc-title{
-        margin: 75px auto 0;
+        margin: 4.5vw auto 0;
         width: fit-content;
     }    
     .nav-pc-title>h1{
@@ -124,7 +124,7 @@ PC用スタイル
     }
     .nav-pc-sns{
         display: flex;
-        margin: 0 auto 75px;
+        margin: 0 auto 5vw;
     }
     .nav-pc-sns-link{
         margin: 0 30px 0;
@@ -218,15 +218,19 @@ PC用スタイル
     /*ヘッダー*/
     #th-box{
         position: relative;
-        margin: 0 0 50px 0;
+        margin: 0 0 0 0;
         text-align: center;
         outline: #F39518 solid 3px;
-        outline-offset: -50px;
+        outline-offset: -3vw;
     }
     #top-header-img{
         width: 100%;
         height: auto;
         pointer-events:none
+    }
+    #th-backbox{
+        display: flex;
+        align-items: center;
     }
     #top-title{
         position: absolute;
@@ -285,7 +289,7 @@ PC用スタイル
 
     /*TopNewsセクション*/
     #top-news{
-        margin: 50px 0;
+        margin: 3vw;
     }
     #tn-backimg{
         position: relative;
@@ -295,17 +299,18 @@ PC用スタイル
     #tn-img{
         width: 100%;
         height: auto;
-        pointer-events:none
+        pointer-events:none;
+        border-radius: 50px;
     }
     #tn-box{
         position: absolute;
         top:50%;
-        right: 50px;
+        right: 3vw;
         transform: translate(0%, -50%);
         background-color: rgba(255, 255, 255, 0.75);
-        width: auto;
-        max-width: 375px;
-        max-height: calc(100% - 120px);
+        width: 45vw;
+        max-width: 400px;
+        max-height: calc(100% - 6vw - 40px);
         padding: 20px;
         display: flex;
         flex-flow: column;
@@ -358,24 +363,30 @@ PC用スタイル
 
     /*TopWorksセクション*/
     #top-works{
-        margin: 50px 0;
+        margin: 3vw;
+    }
+    #tw-backimg{
         position: relative;
+        display: flex;
+        align-items: center;
     }
     #tw-img{
         width: 100%;
         height: auto;
         position: relative;
-        pointer-events:none
+        pointer-events:none;
+        border-radius: 50px;
     }
     #tw-box{
         position: absolute;
         top:50%;
-        left: 50px;
+        left: 3vw;
         transform: translate(0%, -50%);
         padding: 20px;
         background-color: rgba(255, 255, 255, 0.75);
-        max-width: 375px;
-        max-height: calc(100% - 120px);
+        width: 45vw;
+        max-width: 400px;
+        max-height: calc(100% - 6vw - 40px);
         display: flex;
         flex-flow: column;
     }
@@ -426,7 +437,7 @@ PC用スタイル
 
     /*TopProfileセクション*/
     #top-profile{
-        margin: 50px 0;
+        margin: 3vw;
     }
     #tp-backimg{
         position: relative;
@@ -437,17 +448,19 @@ PC用スタイル
         width: 100%;
         height: auto;
         position: relative;
-        pointer-events:none
+        pointer-events:none;
+        border-radius: 50px;
     }
     #tp-box{
         position: absolute;
         top:50%;
-        right: 50px;
+        right: 3vw;
         transform: translate(0%, -50%);
         padding: 20px;
         background-color: rgba(255, 255, 255, 0.75);
-        max-width: 375px;
-        max-height: calc(100% - 100px);
+        width: 45vw;
+        max-width: 400px;
+        max-height: calc(100% - 6vw - 40px);
         display: flex;
         flex-flow: column;
         justify-content: space-between;
@@ -511,17 +524,19 @@ PC用スタイル
     }
     /*TopGalleryセクション*/
     #top-gallery{
-        margin: 50px 0;
+        margin: 3vw;
     }
     #tg-backimg{
         position: relative;
         align-items: center;
+        background-color: #F39518;
+        border-radius: 50px;
     }
     #tg-img{
         width: 100%;
         height: auto;
         position: relative;
-        pointer-events:none
+        pointer-events:none;
     }
     #tg-box{
         width: 100%;
@@ -553,7 +568,7 @@ PC用スタイル
     }
     .tg-slider-list{
         width: fit-content;
-        margin: 0 5px;
+        margin: 0 0.3vw;
     }
 
     #tg-more{
@@ -636,7 +651,7 @@ PC用スタイル
         margin: 0,0,50px,0;
         text-align: center;
         outline: #000000 solid 3px;
-        outline-offset: -50px;
+        outline-offset: -3vw;
     }
     #nw-header-img{
         width: 100%;
@@ -887,7 +902,7 @@ PC用スタイル
         margin: 0,0,50px,0;
         text-align: center;
         outline: #000000 solid 3px;
-        outline-offset: -50px;
+        outline-offset: -3vw;
     }
     #wo-header-img{
         width: 100%;
@@ -1171,7 +1186,7 @@ PC用スタイル
         margin: 0,0,50px,0;
         text-align: center;
         outline: #ffffff solid 3px;
-        outline-offset: -50px;
+        outline-offset: -3vw;
     }
     #pr-header-img{
         width: 100%;
@@ -1288,7 +1303,7 @@ PC用スタイル
         margin: 0,0,50px,0;
         text-align: center;
         outline: #F39518 solid 3px;
-        outline-offset: -50px;
+        outline-offset: -3vw;
     }
     #ga-header-img{
         width: 100%;
@@ -1365,9 +1380,14 @@ PC用スタイル
         margin: 0px;
         object-fit: cover;
     }
+    .ga-photo-box img:hover{
+        filter: grayscale(0%);
+        
+    }
     .ga-photo-box a{
         color: #ffffff;
     }
+
 
     #ga-movie-box > h2{
         color: #000000;
