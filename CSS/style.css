@@ -293,15 +293,15 @@ PC用スタイル
         color: #ffffff;
     }
     .tm-text > h1{
-        font-size: 48px;
+        font-size: 50px;
         font-weight: 300;
-        margin: 0 0 10px;
+        margin: 0 0 5px;
         letter-spacing: 5px;
     }
     .tm-text > p{
-        font-size: 24px;
+        font-size: 25px;
         font-weight: 100;
-        margin: 10px 0 0;
+        margin: 5px 0 0;
     }
     /*Topリンク*/
     #top-link{
@@ -1984,6 +1984,8 @@ PC用スタイル
         border-radius: 50%;
         margin: 0 auto;
         display: block;
+        pointer-events:none;
+        user-select: none;
     }
     #tp-contents1 ,#tp-contents2{
         margin-bottom: 15px;
@@ -2742,6 +2744,8 @@ PC用スタイル
         border-radius: 50%;
         max-width: 250px;
         height: auto;
+        pointer-events:none;
+        user-select: none;
     }
     .activity-record{
         max-width: 1024px;
