@@ -41,8 +41,9 @@ PC用スタイル
     /*ナビゲーションのリンクの装飾設定*(ヘッダー)*/
     .hbg-btn-open{
         position: absolute;
-        top: 4.5vw;
-        left: 4.5vw;
+        top: calc(3vw + 25px);
+        left: calc(3vw + 25px);
+        user-select: none;
     }
     .hbg-btn-open:hover{
         opacity: 0.8;
@@ -71,8 +72,9 @@ PC用スタイル
     }
     .hbg-btn-close{
         position: absolute;
-        top: 4.5vw;
-        left: 4.5vw;
+        top: calc(3vw + 25px);
+        left: calc(3vw + 25px);
+        user-select: none;
     }
     .hbg-btn-close > img{
         width: 50px;
@@ -91,8 +93,9 @@ PC用スタイル
         justify-content: space-between;
     }
     .nav-pc-title{
-        margin: 4.5vw auto 0;
+        margin: calc(3vw + 25px) auto 0;
         width: fit-content;
+        user-select: none;
     }    
     .nav-pc-title>h1{
         font-size: 40px;
@@ -226,7 +229,8 @@ PC用スタイル
     #top-header-img{
         width: 100%;
         height: auto;
-        pointer-events:none
+        pointer-events:none;
+        user-select: none;
     }
     #th-backbox{
         display: flex;
@@ -237,6 +241,7 @@ PC用スタイル
         top:65%;
         left: 8vw;
         transform: translate(0%, -50%);
+        user-select: none;
     }
     #top-title>h1{
         font-size: 40px;
@@ -251,6 +256,53 @@ PC用スタイル
         font-weight: 150;
     }
 
+    .top-arrow{
+        position: absolute;
+        bottom: 3vw;
+        left: 50%;
+        transform: translate(0%, -50%);
+    }
+    .top-scroll{
+        font-size: 20px;
+        color: #F39518;
+        font-weight: 300;
+        user-select: none;
+    }
+
+    /*Topムービー*/
+    #top-movie{
+        margin: 3vw;
+    }
+    #tm-backimg{
+        position: relative;
+        display: flex;
+        align-items: center;
+    }
+    #tm-movie{
+        width: 100%;
+        height: auto;
+        pointer-events:none;
+        user-select: none;
+        border-radius: 50px;
+    }
+    .tm-text{
+        position: absolute;
+        left: 3vw;
+        user-select: none;
+        mix-blend-mode: difference;
+        color: #ffffff;
+    }
+    .tm-text > h1{
+        font-size: 48px;
+        font-weight: 300;
+        margin: 0 0 10px;
+        letter-spacing: 5px;
+    }
+    .tm-text > p{
+        font-size: 24px;
+        font-weight: 100;
+        margin: 10px 0 0;
+    }
     /*Topリンク*/
     #top-link{
         position: relative;
@@ -290,14 +342,14 @@ PC用スタイル
     /*フェードイン(初期値)*/
     .js-fadeUp {
         opacity: 0; /* 最初は非表示 */
-        transform: translateY(10%); /* 下に30pxの位置から */
+        transform: translateY(0%); /* 下に30pxの位置から */
         transition: opacity .6s, transform .6s; /* 透過率と縦方向の移動を0.5秒 */
     }
     /* フェードイン(スクロールした後) */
     .js-fadeUp.is-inview {
         opacity: 1; /* 表示領域に入ったら表示 */
         transform: translateY(0); /* 30px上に移動する */
-        transition-delay: .6s; /* フェード開始を0.5秒遅らせる */
+        transition-delay: .3s; /* フェード開始を0.5秒遅らせる */
     }
     /*TopNewsセクション*/
     #top-news{
@@ -312,6 +364,7 @@ PC用スタイル
         width: 100%;
         height: auto;
         pointer-events:none;
+        user-select: none;
         border-radius: 50px;
     }
     #tn-box{
@@ -387,6 +440,7 @@ PC用スタイル
         height: auto;
         position: relative;
         pointer-events:none;
+        user-select: none;
         border-radius: 50px;
     }
     #tw-box{
@@ -461,6 +515,7 @@ PC用スタイル
         height: auto;
         position: relative;
         pointer-events:none;
+        user-select: none;
         border-radius: 50px;
     }
     #tp-box{
@@ -490,6 +545,7 @@ PC用スタイル
         margin: 0 auto 10px;
         display: block;
         pointer-events: none;
+        user-select: none;
     }
     #tp-contents1{
         margin-bottom: 15px;
@@ -608,7 +664,8 @@ PC用スタイル
         width: 100%;
         height: auto;
         position: relative;
-        pointer-events:none
+        pointer-events:none;
+        user-select: none;
     }
     #tf-box{
         position: absolute;
@@ -668,13 +725,15 @@ PC用スタイル
     #nw-header-img{
         width: 100%;
         height: auto;
-        pointer-events:none
+        pointer-events:none;
+        user-select: none;
     }
     #nw-title{
         position: absolute;
         top:50%;
         right: 8vw;
         transform: translate(0%, -50%);
+        user-select: none;
     }
     #nw-title-btn{
         text-decoration: none;
@@ -919,13 +978,15 @@ PC用スタイル
     #wo-header-img{
         width: 100%;
         height: auto;
-        pointer-events:none
+        pointer-events:none;
+        user-select: none;
     }
     #wo-title{
         position: absolute;
         top:60%;
         left: 8vw;
         transform: translate(0%, -50%);
+        user-select: none;
     }
     #wo-title-btn{
         text-decoration: none;
@@ -1203,13 +1264,15 @@ PC用スタイル
     #pr-header-img{
         width: 100%;
         height: auto;
-        pointer-events:none
+        pointer-events:none;
+        user-select: none;
     }
     #pr-title{
         position: absolute;
         top:50%;
         right: 8vw;
         transform: translate(0%, -50%);
+        user-select: none;
     }
     #pr-title-btn{
         text-decoration: none;
@@ -1279,6 +1342,7 @@ PC用スタイル
         align-items: center;
         margin: 0 auto 0 50px;
         pointer-events: none;
+        user-select: none;
     }
     #profile-fp{
         border-radius: 50%;
@@ -1320,13 +1384,15 @@ PC用スタイル
     #ga-header-img{
         width: 100%;
         height: auto;
-        pointer-events:none
+        pointer-events:none;
+        user-select: none;
     }
     #ga-title{
         position: absolute;
         top:60%;
         left: 8vw;
         transform: translate(0%, -50%);
+        user-select: none;
     }
     #ga-title-btn{
         text-decoration: none;
@@ -1423,13 +1489,15 @@ PC用スタイル
     #fa-header-img{
         width: 100%;
         height: auto;
-        pointer-events:none
+        pointer-events:none;
+        user-select: none;
     }
     #fa-title{
         position: absolute;
         top:60%;
         left: 8vw;
         transform: translate(0%, -50%);
+        user-select: none;
     }
     #fa-title>a{
         text-decoration: none;
@@ -1649,13 +1717,15 @@ PC用スタイル
     #top-header-img{
         width: 100%;
         height: auto;
-        pointer-events:none
+        pointer-events:none;
+        user-select: none;
     }
     #top-title{
         position: absolute;
         top:60%;
         left: 10%;
         transform: translate(0%, -50%);
+        user-select: none;
     }
     #top-title>h1{
         font-size: 20px;
@@ -1668,6 +1738,9 @@ PC用スタイル
         color: #F39518;
         margin: 0;
         font-weight: 100;
+    }
+    .top-arrow{
+        display: none;
     }
     /*Topリンク*/
     #top-link{
@@ -1711,9 +1784,58 @@ PC用スタイル
         font-size: 30px;
         font-weight: 100;
     }
+
+    /*フェードイン(初期値)*/
+    .js-fadeUp {
+        opacity: 0; /* 最初は非表示 */
+        transform: translateY(0%); /* 下に30pxの位置から */
+        transition: opacity .5s, transform .5s; /* 透過率と縦方向の移動を0.5秒 */
+    }
+    /* フェードイン(スクロールした後) */
+    .js-fadeUp.is-inview {
+        opacity: 1; /* 表示領域に入ったら表示 */
+        transform: translateY(0); /* 30px上に移動する */
+        transition-delay: .3s; /* フェード開始を0.5秒遅らせる */
+    }
+
+    /*Topムービーセクション*/
+    #top-movie{
+        margin: 10px 0 30px 0;
+    }
+    #tm-backimg{
+        align-items: center;
+        display: flex;
+        flex-flow: column;
+    }
+    #tm-movie{
+        width: 100%;
+        height: auto;
+        pointer-events:none;
+        user-select: none;
+        order: 2;
+    }
+    .tm-text{
+        color: #000000;
+        margin: 0 30px 10px;
+        order: 1;
+    }
+    .tm-text > h1{
+        font-size: 30px;
+        font-weight: 100;
+        width: fit-content;
+        margin: 0 auto;
+        letter-spacing: 10px;
+        color: #F39518;
+    }
+    .tm-text > p{
+        font-size: 14px;
+        font-weight: 100;
+        margin: 0;
+    }
+    
     /*TopNewsセクション*/
     #top-news{
-        margin: 10px 30px 30px ;
+        margin:30px ;
     }
     #tn-backimg{
         position: relative;
@@ -1722,6 +1844,7 @@ PC用スタイル
     }
     #tn-img{
         display: none;
+        user-select: none;
     }
     #tn-box{
         width: auto;
@@ -1769,6 +1892,7 @@ PC用スタイル
     }
     #tw-img{
         display: none;
+        user-select: none;
     }
     #tw-box{
         width: 100%;
@@ -1840,6 +1964,7 @@ PC用スタイル
     }
     #tp-img{
         display: none;
+        user-select: none;
     }
     #tp-box{
         width: 100%;
@@ -1913,6 +2038,7 @@ PC用スタイル
     }
     #tg-img{
         display: none;
+        user-select: none;
     }
     #tg-box{
         width: 100%;
@@ -1967,6 +2093,7 @@ PC用スタイル
     }
     #tf-img{
         display: none;
+        user-select: none;
     }
     #tf-box{
         width: 100%;
@@ -2021,7 +2148,8 @@ PC用スタイル
     #nw-header-img{
         width: 100%;
         height: auto;
-        pointer-events:none
+        pointer-events:none;
+        user-select: none;
     }
     #nw-title{
         position: absolute;
@@ -2258,7 +2386,8 @@ PC用スタイル
     #wo-header-img{
         width: 100%;
         height: auto;
-        pointer-events:none
+        pointer-events:none;
+        user-select: none;
     }
     #wo-title{
         position: absolute;
@@ -2530,7 +2659,8 @@ PC用スタイル
     #pr-header-img{
         width: 100%;
         height: auto;
-        pointer-events:none
+        pointer-events:none;
+        user-select: none;
     }
     #pr-title{
         position: absolute;
@@ -2645,7 +2775,8 @@ PC用スタイル
     #ga-header-img{
         width: 100%;
         height: auto;
-        pointer-events:none
+        pointer-events:none;
+        user-select: none;
     }
     #ga-title{
         position: absolute;
@@ -2747,7 +2878,8 @@ PC用スタイル
     #fa-header-img{
         width: 100%;
         height: auto;
-        pointer-events:none
+        pointer-events:none;
+        user-select: none;
     }
     #fa-title{
         position: absolute;
