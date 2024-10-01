@@ -51,6 +51,8 @@ PC用スタイル
     .hbg-btn-open>img{
         width: 50px;
         height: auto;
+        -webkit-user-drag: none;
+        pointer-events: none;
     }
     /*ハンバーガーメニュー*/
     .nav-pc{
@@ -74,11 +76,13 @@ PC用スタイル
         position: absolute;
         top: calc(3vw + 25px);
         left: calc(3vw + 25px);
-        user-select: none;
+        user-select: none;        
     }
     .hbg-btn-close > img{
         width: 50px;
         height: auto;
+        -webkit-user-drag: none;
+        pointer-events: none;
     }
     .hbg-btn-close:hover{
         opacity: 0.6;
@@ -1449,12 +1453,12 @@ PC用スタイル
         margin:20px 0 10px 0;
     }
     .ga-photo-box{
-        text-align: center;
+        text-align:left;
         width: fit-content;
     }
     .ga-photo-box img{
-        width: 32%;
-        height: 32%;
+        width: 33%;
+        height: 33%;
         margin: 0px;
         object-fit: cover;
     }
