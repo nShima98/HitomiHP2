@@ -425,6 +425,7 @@ PC用スタイル
         max-height: calc(100% - 6vw - 40px);
         display: flex;
         flex-flow: column;
+        border-radius: 20px;
     }
     #tw-box > h1{
         margin-top: 0;
@@ -501,6 +502,7 @@ PC用スタイル
         display: flex;
         flex-flow: column;
         justify-content: space-between;
+        border-radius: 20px;
     }
     #tp-box > h1{
         margin-top: 0;
@@ -1453,24 +1455,21 @@ PC用スタイル
         margin:20px 0 10px 0;
     }
     .ga-photo-box{
-        text-align:left;
+        text-align:center;
         width: fit-content;
     }
     .ga-photo-box img{
-        width: 33%;
-        height: 33%;
+        width: 32%;
+        height: 32%;
         margin: 0px;
         object-fit: cover;
     }
     .ga-photo-box img:hover{
         filter: grayscale(0%);
-        
     }
     .ga-photo-box a{
         color: #ffffff;
     }
-
-
     #ga-movie-box > h2{
         color: #000000;
         font-size: 16px;
