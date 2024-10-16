@@ -72,7 +72,7 @@
         line-height: 1;
 
         opacity: 1;
-        color: #FFAD75;     /*矢印の色*/
+        color: #F39518;     /*矢印の色*/
 
         -webkit-font-smoothing: antialiased;
         -moz-osx-font-smoothing: grayscale;
@@ -280,7 +280,7 @@
         line-height: 1;
 
         opacity: 1;
-        color: #FFAD75;    /*矢印の色*/
+        color: #F39518;    /*矢印の色*/
 
         -webkit-font-smoothing: antialiased;
         -moz-osx-font-smoothing: grayscale;
