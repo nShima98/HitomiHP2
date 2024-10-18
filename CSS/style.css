@@ -1454,6 +1454,12 @@ PC用スタイル
         font-weight: 100;
         margin:20px 0 10px 0;
     }
+    .ga-contents-box > p{
+        color: #000000;
+        font-size: 18px;
+        font-weight: 100;
+        margin:20px 0 10px 0;
+    }
     .ga-photo-box{
         text-align:center;
         width: fit-content;
@@ -2825,6 +2831,12 @@ PC用スタイル
         font-size: 18px;
         font-weight: 100;
         margin:10px 0 5px;
+    }
+    .ga-contents-box > p{
+        color: #000000;
+        font-size: 14px;
+        font-weight: 100;
+        margin:10px 0 5px 0;
     }
     .ga-photo-box{
         text-align: center;
