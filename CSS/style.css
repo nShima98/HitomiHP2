@@ -227,7 +227,7 @@ PC用スタイル
         position: relative;
         margin: 0 0 0 0;
         text-align: center;
-        outline: #F39518 solid 3px;
+        outline: #000000 solid 3px;
         outline-offset: -3vw;
     }
     #top-header-img{
@@ -249,13 +249,13 @@ PC用スタイル
     }
     #top-title>h1{
         font-size: 40px;
-        color: #F39518;
+        color: #000000;
         margin: 0;
         font-weight: 150;
     }
     #top-title>h2{
         font-size: 20px;
-        color: #F39518;
+        color: #000000;
         margin: 0;
         font-weight: 150;
     }
@@ -1738,13 +1738,13 @@ PC用スタイル
     }
     #top-title>h1{
         font-size: 20px;
-        color: #F39518;
+        color: #000000;
         margin: 0;
         font-weight: 100;
     }
     #top-title>h2{
         font-size: 14px;
-        color: #F39518;
+        color: #000000;
         margin: 0;
         font-weight: 100;
     }
