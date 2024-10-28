@@ -725,7 +725,7 @@ PC用スタイル
         position: relative;
         margin: 0,0,50px,0;
         text-align: center;
-        outline: #000000 solid 3px;
+        outline: #ffffff solid 3px;
         outline-offset: -3vw;
     }
     #nw-header-img{
@@ -736,8 +736,8 @@ PC用スタイル
     }
     #nw-title{
         position: absolute;
-        top:50%;
-        right: 8vw;
+        top:60%;
+        left: 8vw;
         transform: translate(0%, -50%);
         user-select: none;
     }
@@ -749,13 +749,13 @@ PC用スタイル
     }
     #nw-title-btn >h1{
         font-size: 40px;
-        color: #000000;
+        color: #ffffff;
         margin: 0;
         font-weight:150;
     }
     #nw-title-btn>h2{
         font-size: 20px;
-        color: #000000;
+        color: #ffffff;
         margin: 0;
         font-weight: 150;
     }
@@ -2165,7 +2165,7 @@ PC用スタイル
     #nw-title{
         position: absolute;
         top:60%;
-        right: 10%;
+        left: 10%;
         transform: translate(0%, -50%);
     }
     #nw-title-btn{
@@ -2176,13 +2176,13 @@ PC用スタイル
     }
     #nw-title-btn >h1{
         font-size: 20px;
-        color: #000000;
+        color: #ffffff;
         margin: 0;
         font-weight:100;
     }
     #nw-title-btn>h2{
         font-size: 14px;
-        color: #000000;
+        color: #ffffff;
         margin: 0;
         font-weight: 100;
     }
