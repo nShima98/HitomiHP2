@@ -210,11 +210,18 @@ PC用スタイル
     .page_title{
         width: fit-content;
         margin: 20px auto 20px auto;
+        text-align: center;
     }
     .page_title > h1{
         color: #F39518;
         font-size: 36px;
         letter-spacing: 10px;
+        font-weight: 100;
+        margin: 0;
+    }
+    .page_title > p{
+        color: #000000;
+        font-size: 14px;
         font-weight: 100;
         margin: 0;
     }
@@ -1062,7 +1069,13 @@ PC用スタイル
     .works-container-text>a:hover{
         text-decoration: underline;
     }
-
+    .works-container-text>p{
+        font-size: 16px;
+        font-weight: 100;
+        text-decoration: none;
+        margin: 0;
+        color: #000000;
+    }
 
     /*-----Works個別ページメイン-----*/
     .works_page_title {
@@ -1264,7 +1277,7 @@ PC用スタイル
         position: relative;
         margin: 0,0,50px,0;
         text-align: center;
-        outline: #ffffff solid 3px;
+        outline: #f39418 solid 3px;
         outline-offset: -3vw;
     }
     #pr-header-img{
@@ -1276,7 +1289,7 @@ PC用スタイル
     #pr-title{
         position: absolute;
         top:50%;
-        right: 8vw;
+        left: 8vw;
         transform: translate(0%, -50%);
         user-select: none;
     }
@@ -1288,13 +1301,13 @@ PC用スタイル
     }
     #pr-title-btn>h1{
         font-size: 40px;
-        color: #ffffff;
+        color: #f39418;
         margin: 0;
         font-weight:150;
     }
     #pr-title-btn>h2{
         font-size: 20px;
-        color: #ffffff;
+        color: #f39418;
         margin: 0;
         font-weight: 150;
     }
@@ -1384,7 +1397,7 @@ PC用スタイル
         position: relative;
         margin: 0,0,50px,0;
         text-align: center;
-        outline: #F39518 solid 3px;
+        outline: #000000 solid 3px;
         outline-offset: -3vw;
     }
     #ga-header-img{
@@ -1396,7 +1409,7 @@ PC用スタイル
     #ga-title{
         position: absolute;
         top:60%;
-        left: 8vw;
+        right: 8vw;
         transform: translate(0%, -50%);
         user-select: none;
     }
@@ -1408,13 +1421,13 @@ PC用スタイル
     }
     #ga-title-btn>h1{
         font-size: 40px;
-        color: #F39518;
+        color: #000000;
         margin: 0;
         font-weight:150;
     }
     #ga-title-btn>h2{
         font-size: 20px;
-        color: #F39518;
+        color: #000000;
         margin: 0;
         font-weight: 150;
     }
@@ -1700,12 +1713,19 @@ PC用スタイル
     .page_title{
         width: fit-content;
         margin: 0 auto 5px;
+        text-align: center;
     }
     .page_title > h1{
         color: #F39518;
         font-size: 26px;
         letter-spacing: 10px;
         font-weight: 150;
+        margin: 0;
+    }
+    .page_title > p{
+        color: #000000;
+        font-size: 14px;
+        font-weight: 100;
         margin: 0;
     }
     /*SNS*/
@@ -2471,6 +2491,13 @@ PC用スタイル
     .works-container-text>a:hover{
         color: #F39518;
     }
+    .works-container-text>p{
+        font-size: 16px;
+        font-weight: 100;
+        text-decoration: none;
+        margin: 0;
+        color: #000000;
+    }
 
     /*ニュースのタイトル・日付*/
     .works_page_title{
@@ -2676,7 +2703,7 @@ PC用スタイル
     #pr-title{
         position: absolute;
         top:60%;
-        right: 10%;
+        left: 10%;
         transform: translate(0%, -50%);
     }
     #pr-title-btn{
@@ -2687,13 +2714,13 @@ PC用スタイル
     }
     #pr-title-btn>h1{
         font-size: 20px;
-        color: #ffffff;
+        color: #f39418;
         margin: 0;
         font-weight:100;
     }
     #pr-title-btn>h2{
         font-size: 14px;
-        color: #ffffff;
+        color: #f39418;
         margin: 0;
         font-weight: 100;
     }
@@ -2794,7 +2821,7 @@ PC用スタイル
     #ga-title{
         position: absolute;
         top:60%;
-        left: 10%;
+        right: 10%;
         transform: translate(0%, -50%);
     }
     #ga-title-btn{
@@ -2805,13 +2832,13 @@ PC用スタイル
     }
     #ga-title-btn>h1{
         font-size: 20px;
-        color: #F39518;
+        color: #000000;
         margin: 0;
         font-weight:100;
     }
     #ga-title-btn>h2{
         font-size: 14px;
-        color: #F39518;
+        color: #000000;
         margin: 0;
         font-weight: 100;
     }
