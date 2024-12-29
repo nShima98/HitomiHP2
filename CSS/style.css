@@ -914,32 +914,34 @@ PC用スタイル
         margin: 0 auto 30px ;
         display: block;
     }
+    /*舞台の概要*/
     .news-cm{
-        width: fit-content;
         display: flex;
-        margin: 30px auto 20px 20px;
+        margin: 30px 15px;
     }
-    /*概要*/
     .news-ov{
-        margin: 0 20px 0 0;
+        margin: 10px 20px 0 0;
         width: fit-content;
     }
-    .news-ov>p{
+    .news-ov>p{ /*舞台の概要*/
         font-size: 14px;
         font-weight: 100;
         margin:0 0 5px;
     }
     .news-ov-date{
         font-size: 14px;
-        font-weight: 200;
+        font-weight: 300;
         margin:0 0 14px;
     }
+
     .news-map{
-        margin: 0 0 0 20px;
+        margin: 0 auto 0 0;
+        height: 320px;
+        flex: auto;
     }
-    .news-map>iframe{
+    .news-map>iframe{ /*舞台の概要の地図*/
         width: 100%;
-        height: 300px;
+        height: 100%;
     }
     /*予約フォーム*/
     .news-gform{
