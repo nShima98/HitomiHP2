@@ -914,12 +914,13 @@ PC用スタイル
         margin: 0 auto 30px ;
         display: block;
     }
+    
     /*舞台の概要*/
     .news-cm{
         display: flex;
         margin: 30px 15px;
     }
-    .news-ov{
+    .news-ov{ /*cm小要素1*/
         margin: 10px 20px 0 0;
         width: fit-content;
     }
@@ -933,8 +934,7 @@ PC用スタイル
         font-weight: 300;
         margin:0 0 14px;
     }
-
-    .news-map{
+    .news-map{ /*cm小要素2*/
         margin: 0 auto 0 0;
         height: 320px;
         flex: auto;
