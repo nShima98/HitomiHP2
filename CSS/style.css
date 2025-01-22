@@ -787,7 +787,7 @@ PC用スタイル
         list-style: none;
     }
     #latest-news-box{
-        margin: 0;
+        margin: 0 0 70px 0;
         width: 33.3333%;
         padding: 0 15px 0;
         box-sizing: border-box;
