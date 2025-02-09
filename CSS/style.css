@@ -1130,7 +1130,7 @@ PC用スタイル
         text-align: right;
         margin: 0;
     }
-    /*ニュースの内容*/
+    /*workの内容*/
     .works-contents-box{
         max-width: 1024px;
         margin: 20px auto 50px;
@@ -1184,6 +1184,21 @@ PC用スタイル
         width: 100%;
         height: 300px;
     }
+    /*劇中写真 slider*/
+    .wo-slider{
+    margin: 20px 0 75px; 
+    }
+    .wo-slider-box{
+    padding: 0;
+    margin: 15px 0;
+    }
+    .wo-slider-list{
+
+    }
+    .wo-slider-img{
+    height: 35vw;
+    }
+
     /*次のワーク・前のワーク*/
     .works-btn-box{
         width: 100%;
@@ -2628,7 +2643,19 @@ PC用スタイル
         width: 100%;
         height: 250px;
     }
+    /*劇中写真 slider*/
+    .wo-slider{
+    margin: 20px -30px 20px; 
+    }
+    .wo-slider-box{
+    padding: 0;
+    }
+    .wo-slider-list{
 
+    }
+    .wo-slider-img{
+    height: 50vw;
+    }
     /*次のニュース・前のニュース*/
     .works-btn-box{
         width: 100%;
