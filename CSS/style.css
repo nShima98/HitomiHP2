@@ -1196,7 +1196,8 @@ PC用スタイル
 
     }
     .wo-slider-img{
-    height: 35vw;
+    height: 20vw;
+    padding: 0 0.5vh;
     }
 
     /*次のワーク・前のワーク*/
@@ -2655,6 +2656,7 @@ PC用スタイル
     }
     .wo-slider-img{
     height: 50vw;
+    padding: 0 1vw;
     }
     /*次のニュース・前のニュース*/
     .works-btn-box{
